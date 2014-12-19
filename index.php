@@ -22,8 +22,8 @@ get_header(); ?>
 			<div>
 			<h1>映像制作ならUGOKIEへお任せ下さい</h1>
 			<ul>
-				<li style="float:left;">サービス一覧</li>
-				<li style="float:right;">当社の強み</li>
+				<li>サービス一覧</li>
+				<li>当社の強み</li>
 			</ul>
 			</div>
 			</section>
