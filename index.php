@@ -15,22 +15,24 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<section id="mainvisual">
-			<video autoplay loop poster="http://mattgrossdesign.com/raw-media/first-frame-screencap" id="video-background" muted>
-				<source src="<?php bloginfo('template_directory');?>/images/wood+autumn-HD.mp4" type="video/webm">
-			</video>
-			<div>
-			<h1>映像制作ならUGOKIEへお任せ下さい</h1>
-			<ul>
-				<li>サービス一覧</li>
-				<li>当社の強み</li>
-			</ul>
+			<div id="mainvideo">
+				<video autoplay loop poster="http://mattgrossdesign.com/raw-media/first-frame-screencap" id="video-background" muted>
+					<source src="<?php bloginfo('template_directory');?>/images/d.mp4" type="video/webm">
+				</video>
 			</div>
+			<section id="mainvisual">
+				<div>
+				<h2>映像制作ならUGOKIEへお任せ下さい</h2>
+				<ul>
+					<li>安心の料金</li>
+					<li>サービスの特徴</li>
+				</ul>
+				</div>
 			</section>
 
 			<section id="performance">
-				<h2>制作実績</h2>
-				<p>制作実績をもっと見る</p>
+				<h2>UGOKIEのサービスとは？</h2>
+				<p>UGOKIEは様々な動画制作に対応します。作って終わりではなく、動画の活用方法までサポートするサービスです。</p>
 			</section>
 
 		<!-- <?php if ( have_posts() ) : ?> -->

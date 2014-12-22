@@ -20,15 +20,13 @@
 
 <body <?php body_class(); ?>>
 <div>
-	<header>
+	<header id="mainhead">
 		<div class="site-branding">
 			<h1 id="sitetitle"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><span><?php bloginfo( 'name' ); ?></span></a></h1>
-			<!-- <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2> -->
+			<nav id="site-navigation" class="main-navigation" role="navigation">
+				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			</nav><!-- #site-navigation -->
 		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

@@ -47,6 +47,7 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    text-decoration:none;
 }
 /* change colours to suit your needs */
 ins {
@@ -86,14 +87,136 @@ input, select {
 }
 
 
-/* OptionCSS */
+/*****----- OptionCSS -----*****/
+/*** header ***/
 h1#sitetitle {
 	display:block;
 	width:240px;
 	height:50px;
 	background-image:url("images/logo.png");
 	background-repeat:no-repeat;
+	float:left;
+	margin-right:90px;
+	margin-top:13px;
 }
 h1#sitetitle a span {
   display:none;
+}
+
+header#mainhead {
+	width:100%;
+	height:80px;
+	margin:0 auto;
+	background-color:rgba(0,0,0,0.2);
+}
+header#mainhead div {
+	width:960px;
+	height:80px;
+	margin:0 auto;
+}
+header#mainhead:after {
+	content: "";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+}
+header#mainhead ul {
+	float:right;
+}
+header#mainhead ul li {
+	float:left;
+	margin-right:40px;
+	font-size:14px;
+	line-height:80px;
+}
+header#mainhead ul li:last-child {
+	margin-right:0;
+}
+header#mainhead ul li:after {
+	content: "";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+}
+header#mainhead ul li a {
+	color:#ffffff;
+}
+
+
+/*** index ***/
+#video-background {
+	display:block;
+	width: 100%; 
+	height: auto;
+	min-width:960px;
+	min-height:720px;
+	z-index: -100;
+}
+div#mainvideo {
+	width:100%;
+	margin: 0 auto;
+	height:720px;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	z-index:-100;
+}
+section#mainvisual {
+	position:relative;
+	width:960px;
+	margin:0 auto 40px auto;
+	color:#ffffff;
+	height:655px;
+	vertical-align:middle;
+}
+section#mainvisual div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width:910px;
+	height:150px;
+}
+section#mainvisual h2 {
+	text-align:center;
+	margin-bottom:45px;
+	font-size:40px;
+	line-height:1em;
+}
+
+section#mainvisual ul {
+	width:580px;
+	margin: 0 auto;
+	list-style:none;
+}
+section#mainvisual ul li {
+	font-size:26px;
+	line-height:70px;
+	width:280px;
+	float:left;
+	display:block;
+	background-color:#D55C5A;
+	text-align:center;
+}
+section#mainvisual ul li:first-child {
+	margin-right:20px;
+}
+
+section#performance {
+	width:960px;
+	margin:0 auto;
+}
+section#performance h2 {
+	font-size:24px;
+	lone-height:1em;
+	margin-bottom:20px;
+}
+section#performance p {
+	font-size:16px;
+	line-height:1em;
+	margin-bottom:35px;
 }
