@@ -168,7 +168,7 @@ section#mainvisual {
 	width:960px;
 	margin:0 auto 40px auto;
 	color:#ffffff;
-	height:655px;
+	height:640px;
 	vertical-align:middle;
 }
 section#mainvisual div {
@@ -179,7 +179,7 @@ section#mainvisual div {
 	bottom: 0;
 	margin: auto;
 	width:910px;
-	height:150px;
+	height:155px;
 }
 section#mainvisual h2 {
 	text-align:center;
@@ -190,6 +190,7 @@ section#mainvisual h2 {
 
 section#mainvisual ul {
 	width:580px;
+	height:70px;
 	margin: 0 auto;
 	list-style:none;
 }
@@ -211,9 +212,11 @@ section#performance {
 	margin:0 auto;
 }
 section#performance h2 {
-	font-size:24px;
+	font-size:30px;
 	lone-height:1em;
-	margin-bottom:20px;
+	margin-bottom:40px;
+	padding-bottom:20px;
+	border-bottom: solid 1px #000000;
 }
 section#performance p {
 	font-size:16px;
