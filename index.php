@@ -86,6 +86,7 @@ get_header(); ?>
 
 			<section id="seisaku">
 				<div class="wrapper">
+				<div class="youtube">
 					<?php do_action('slideshow_deploy', '34'); ?>
 				</div>
 				<div class="zisseki">
@@ -93,9 +94,25 @@ get_header(); ?>
 					<p>UGOIEが手がけた映像制作事例です。<br>様々な案件に合せて、よりユーザーへリーチする映像制作を心がけています。<br>ただ作るだけでは終わらない、UGOKIEの映像制作をご覧ください。</p>
 					<img src="<?php bloginfo('template_directory');?>/images/button_zisseki.gif" width="230" height="40" alt="制作実績をもっと見る">
 				</div>
+				</div>
 			</section>
 
-		<!-- <?php if ( have_posts() ) : ?> -->
+			<section id="news">
+				<div class="wrapper">
+					<h2>ニュース</h2>
+					<?php if ( have_posts() ) : ?>
+					<div id="fb-root"></div>
+					<script>(function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0];
+						if (d.getElementById(id)) return;
+						js = d.createElement(s); js.id = id;
+						js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=758942267458537&version=v2.0";
+						fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script>
+						<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="450" data-height="520" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+				</div>
+			</section>
+
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
