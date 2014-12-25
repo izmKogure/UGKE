@@ -39,19 +39,19 @@ get_header(); ?>
 
 				<h3>消費者向けジャンル</h3>
 				<ul>
-					<li>CM</li>
-					<li>アプリ紹介</li>
-					<li>インタビュー</li>
-					<li>展示・イベント</li>
-					<li>採用</li>
+					<li><img src="<?php bloginfo('template_directory');?>/images/icon_cm.png" width="168" height="101" alt="CM">CM</li>
+					<li><img src="<?php bloginfo('template_directory');?>/images/icon_app.png" width="168" height="101" alt="アプリ紹介">アプリ紹介</li>
+					<li><img src="<?php bloginfo('template_directory');?>/images/icon_interview.png" width="168" height="101" alt="インタビュー">インタビュー</li>
+					<li><img src="<?php bloginfo('template_directory');?>/images/icon_event.png" width="168" height="101" alt="展示・イベント">展示・イベント</li>
+					<li><img src="<?php bloginfo('template_directory');?>/images/icon_rec.png" width="168" height="101" alt="採用">採用</li>
 				</ul>
 				<h3>開発者向けジャンル</h3>
 				<ul>
-					<li>プレゼン</li>
-					<li>マニュアル</li>
-					<li>教育研修</li>
-					<li>記念行事</li>
-					<li>活動記録</li>
+					<li><img src="<?php bloginfo('template_directory');?>/images/icon_prezen.png" width="168" height="101" alt="プレゼン">プレゼン</li>
+					<li><img src="<?php bloginfo('template_directory');?>/images/icon_manu.png" width="168" height="101" alt="マニュアル">マニュアル</li>
+					<li><img src="<?php bloginfo('template_directory');?>/images/icon_kyouiku.png" width="168" height="101" alt="教育研修">教育研修</li>
+					<li><img src="<?php bloginfo('template_directory');?>/images/icon_kinen.png" width="168" height="101" alt="記念行事">記念行事</li>
+					<li><img src="<?php bloginfo('template_directory');?>/images/icon_katsudou.png" width="168" height="101" alt="活動記録">活動記録</li>
 				</ul>
 			</section>
 

@@ -283,6 +283,9 @@ section#performance ul li {
 	line-height:1em;
 	text-align:center;
 }
+section#performance ul li img{
+	margin-bottom:18px;
+}
 section#performance ul li:last-child {
 	margin-right:0;
 }
