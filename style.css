@@ -207,27 +207,28 @@ section#mainvisual ul li:first-child {
 	margin-right:20px;
 }
 
-section#performance {
-	width:960px;
+section#performance,
+section#service {
+	width:100%;
 	margin:0 auto;
 }
-section#performance h2 {
+section#performance h2,
+section#service h2 {
+	width:960px;
+	margin:0 auto;
 	font-size:30px;
-	lone-height:1em;
+	line-height:1em;
 	padding-bottom:20px;
 	border-bottom: solid 1px #000000;
 }
-section#performance p {
-	font-size:16px;
-	line-height:1em;
-	margin-bottom:35px;
-}
-
-section#performance dl {
-	width:100%;
+section#performance dl,
+section#service dl {
+	width:960px;
+	margin:0 auto;
 	margin-bottom:60px;
 }
-section#performance dl dt {
+section#performance dl dt,
+section#service dl dt {
 	width:770px;
 	min-height:150px;
 	padding:40px 0 40px 190px;
@@ -238,13 +239,15 @@ section#performance dl dt {
 	vertical-align:middle;
 	font-weight:bold;
 }
-section#performance dl dt span {
+section#performance dl dt span,
+section#service dl dt span {
 	width:770px;
 	height:150px;
 	vertical-align:middle;
 	display:table-cell;
 }
-section#performance dl dd {
+section#performance dl dd,
+section#service dl dd {
 	width:770px;
 	min-height:150px;
 	padding:40px 190px 40px 0;
@@ -253,7 +256,8 @@ section#performance dl dd {
 	border-bottom: solid 1px #000000;
 	background:url(images/background_a.png) no-repeat right;
 }
-section#performance dl dd span {
+section#performance dl dd span,
+section#service dl dd span {
 	width:770px;
 	height:150px;
 	display:table-cell;
@@ -261,12 +265,15 @@ section#performance dl dd span {
 }
 
 section#performance h3 {
+	width:960px;
+	margin:0 auto;
 	font-size:30px;
 	line-height:1em;
 	margin-bottom:40px;
 }
 section#performance ul {
-	width:100%;
+	width:960px;
+	margin:0 auto;
 	height:134px;
 	margin-bottom:80px;
 }
@@ -288,4 +295,71 @@ section#performance ul li img{
 }
 section#performance ul li:last-child {
 	margin-right:0;
+}
+section#performance div {
+	width:100%;
+	text-align:center;
+	margin-bottom:76px;
+}
+
+section#service {
+	background-color:#f7f6f6;
+	padding:40px 0 240px 0;
+	margin-bottom:40px;
+}
+section#service:after {
+	content: "";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+}
+section#service ul {
+	width:960px;
+	margin:0 auto;
+}
+section#service ul li {
+	float:left;
+	list-style:none;
+	width:280px;
+	margin-right:60px;
+	text-align:center;
+}
+section#service ul li:last-child {
+	margin-right:0;
+}
+section#service ul li img {
+	margin-bottom:30px;
+}
+section#service ul li h3 {
+	font-size:20px;
+	line-height:1em;
+	margin-bottom:17px;
+}
+section#service ul li p {
+	font-size:14px;
+	line-height:1.7em;
+}
+
+section#seisaku {
+	width:960px;
+	margin:0 auto;
+}
+section#seisaku div.wrapper {
+	width:560px;
+	display:table-cell;
+}
+section#seisaku div.zisseki {
+	padding-left:30px;
+	display:table-cell;
+	vertical-align:middle;
+}
+section#seisaku h2 {
+	font-size:30px;
+	line-height:1em;
+}
+section#seisaku p {
+	font-size:16px;
+	line-height:1.5em;
+	margin-bottom:34px;
 }

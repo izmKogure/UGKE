@@ -53,9 +53,47 @@ get_header(); ?>
 					<li><img src="<?php bloginfo('template_directory');?>/images/icon_kinen.png" width="168" height="101" alt="記念行事">記念行事</li>
 					<li><img src="<?php bloginfo('template_directory');?>/images/icon_katsudou.png" width="168" height="101" alt="活動記録">活動記録</li>
 				</ul>
+				<div>
+					<img src="<?php bloginfo('template_directory');?>/images/button_moregenre.gif" width="288" height="78" alt="もっとジャンルを見る">
+				</div>
 			</section>
 
+			<section id="service">
+				<h2>UGOKIEのサービスについて</h2>
+				<dl>
+					<dt><span>他の動画制作サービスやクラウドソーシングとUGOKIEはどう違うの？</span></dt>
+					<dd><span>UGOKIEは動画の制作から運用(動画の再活用)までをトータルにサポートするサービスです。また、依頼主さまのプランニング作業や交渉を必要とする動画制作クラウドソーシングとは違い、私たちUGOKIEがプランニングから実制作、クオリティー管理、配信先の提案（アフターフォロー）まで全て行います。動画の制作料金も４つのコースプランを予めご用意していますので、最後に不透明な追加料金を請求する事もございません。</span></dd>
+				</dl>
 
+				<ul>
+					<li>
+						<img src="<?php bloginfo('template_directory');?>/images/icon_ryoukin.png" width="280" height="280" alt="明解な料金プラン">
+						<h3>明解な料金プラン</h3>
+						<p>9.8万円のプランからオリジナルプランまで４つのコースを予めご用意しています。（オリジナルプラン以外の３コースは）予算や制作内容にマッチしたプランをお選び頂くだけで、難解な見積書に目を通す必要もありません。納品後に追加料金を請求する事も無いため、後から予算追加の心配も一切ありません。</p>
+					</li>
+					<li>
+						<img src="<?php bloginfo('template_directory');?>/images/icon_anshin.png" width="280" height="280" alt="安心の制作フロー">
+						<h3>安心の制作フロー</h3>
+						<p>クラウドソーシングとは違い、一貫してマネージメントを行います。依頼したけど期限になっても提案がない…こちらの要望とかけ離れている…というような苦労とは無縁です。コース別の制作フローに沿って安心した動画制作を提供致します。</p>
+					</li>
+					<li>
+						<img src="<?php bloginfo('template_directory');?>/images/icon_after.png" width="280" height="280" alt="アフターフォロー">
+						<h3>アフターフォロー</h3>
+						<p>近年、動画の配信先はTVCMに限らず、街頭テレビジョンやYouTube、スマホへのリッチ広告と多種多様に広がっています。せっかく予算と時間をかけて制作した動画を１つの場所に限って配信したのでは、ムダが多いうえ、宣伝効果も限られます。UGOKIEでは制作済みの動画コンテンツを別の媒体先でも配信できるように再活用の提案と動画編集も行なっております。</p>
+					</li>
+				</ul>
+			</section>
+
+			<section id="seisaku">
+				<div class="wrapper">
+					<?php do_action('slideshow_deploy', '34'); ?>
+				</div>
+				<div class="zisseki">
+					<h2>制作実績</h2>
+					<p>UGOIEが手がけた映像制作事例です。<br>様々な案件に合せて、よりユーザーへリーチする映像制作を心がけています。<br>ただ作るだけでは終わらない、UGOKIEの映像制作をご覧ください。</p>
+					<img src="<?php bloginfo('template_directory');?>/images/button_zisseki.gif" width="230" height="40" alt="制作実績をもっと見る">
+				</div>
+			</section>
 
 		<!-- <?php if ( have_posts() ) : ?> -->
 
