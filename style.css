@@ -404,6 +404,8 @@ section#news div.side-news ul li img {
 	border:solid 1px #000000;
 	vertical-align:middle;
 	float:left;
+	width:170px;
+	height:100px;
 }
 section#news div.side-news ul li p {
 	height:100px;
