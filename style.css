@@ -376,11 +376,17 @@ section#news {
 	padding:30px 0 40px 0;
 }
 section#news h2 {
+	width:450px;
 	font-size:30px;
 	line-height:1em;
 	margin-bottom:30px;
 }
+section#news h2 img {
+	vertical-align:bottom;
+	float:right;
+}
 section#news div.side-news {
+	width:450px;
 	float:left;
 	margin-right:60px;
 }
@@ -427,5 +433,6 @@ section#news div.side-news ul li p span {
 	font-weight:normal;
 }
 section#news div#likebox {
-	margin-top:-60px;
+	position:relative;
+	top:-60px;
 }
