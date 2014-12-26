@@ -378,6 +378,7 @@ section#news {
 section#news h2 {
 	font-size:30px;
 	line-height:1em;
+	margin-bottom:30px;
 }
 section#news div.side-news {
 	float:left;
@@ -424,4 +425,7 @@ section#news div.side-news ul li p span {
 	font-size:14px;
 	line-height:2em;
 	font-weight:normal;
+}
+section#news div#likebox {
+	margin-top:-60px;
 }
