@@ -457,7 +457,6 @@ footer div#call {
 	color:#ffffff;
 }
 footer div#call div.wrapper {
-	width:960px;
 	height:60px;
 	padding:20px 60px 20px 60px;
 	font-size:40px;
@@ -476,17 +475,53 @@ footer div#call span {
 	vertical-align:middle;
 }
 footer div#serviceinfo {
-	height:180px;
+	height:100px;
 	background-color:#222222;
 	color:#ffffff;
+	padding:40px 0;
+}
+footer div#serviceinfo dt {
+	height:60px;
+	padding:20px 0;
+}
+footer div#serviceinfo dd {
+	font-size:14px;
+	line-height:24px;
+	margin-left:336px;
+	margin-top:-100px;
+}
+footer div#serviceinfo dd:after {
+	content: "";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+}
+footer div#serviceinfo ul {
+	margin-top:25px;
+}
+footer div#serviceinfo li {
+	float:left;
+	list-style:none;
+	margin-right:20px;
+}
+footer div#serviceinfo li:last-child {
+	margin-right:0;
 }
 footer div#boshu {
-	height:100px;
+	height:60px;
 	background-color:#686565;
 	color:#ffffff;
+	text-align:center;
+	padding:20px 0;
 }
 footer div#copyright {
 	height:40px;
 	background-color:#222222;
 	color:#ffffff;
+	font-size:12px;
+	line-height:40px;
+}
+footer div#copyright span {
+	float:right;
 }
