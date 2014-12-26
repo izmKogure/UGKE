@@ -100,16 +100,30 @@ get_header(); ?>
 			<section id="news">
 				<div class="wrapper">
 					<h2>ニュース</h2>
+					<div class="side-news">
+						<ul class="blog">
+							<?php query_posts('cat=1&showposts=4');
+							if (have_posts()) : while (have_posts()) : the_post(); ?>
+								<li><a href="<?php the_permalink(); ?>">
+								<?php the_post_thumbnail(array(176,100)); ?></a>
+								<p><span><?php the_time(Y年m月d日); ?></span><br>
+								<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+								</li>
+							<?php endwhile; endif; wp_reset_query(); ?>
+						</ul>
+					</div>
+					<div id="likebox">
 					<?php if ( have_posts() ) : ?>
 					<div id="fb-root"></div>
-					<script>(function(d, s, id) {
-						var js, fjs = d.getElementsByTagName(s)[0];
-						if (d.getElementById(id)) return;
-						js = d.createElement(s); js.id = id;
-						js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=758942267458537&version=v2.0";
-						fjs.parentNode.insertBefore(js, fjs);
-						}(document, 'script', 'facebook-jssdk'));</script>
-						<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="450" data-height="520" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+						<script>(function(d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s); js.id = id;
+							js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=758942267458537&version=v2.0";
+							fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));</script>
+							<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="450" data-height="520" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+					</div>
 				</div>
 			</section>
 
