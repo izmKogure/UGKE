@@ -436,3 +436,35 @@ section#news div#likebox {
 	position:relative;
 	top:-60px;
 }
+
+
+
+
+
+
+
+
+/*** footer ***/
+footer {
+	width:100%;
+}
+footer div#call {
+	height:100px;
+	background-color:#d35d5d;
+	color:#ffffff;
+}
+footer div#serviceinfo {
+	height:180px;
+	background-color:#222222;
+	color:#ffffff;
+}
+footer div#boshu {
+	height:100px;
+	background-color:#686565;
+	color:#ffffff;
+}
+footer div#copyright {
+	height:40px;
+	background-color:#222222;
+	color:#ffffff;
+}

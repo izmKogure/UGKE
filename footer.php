@@ -10,12 +10,15 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'ugokie' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'ugokie' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'ugokie' ), 'UGOKIE', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
+	<footer role="contentinfo">
+		<div id="call">
+		</div>
+		<div id="serviceinfo">
+		</div>
+		<div id="boshu">
+		</div>
+		<div id="copyright">
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
