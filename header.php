@@ -12,14 +12,13 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
-<link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 <div>
+<?php if (is_home()) {?>
 	<header id="mainhead">
 		<div class="site-branding">
 			<h1 id="sitetitle"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><span><?php bloginfo( 'name' ); ?></span></a></h1>
@@ -28,5 +27,16 @@
 			</nav><!-- #site-navigation -->
 		</div><!-- .site-branding -->
 	</header><!-- #masthead -->
+<?php } else{ ?>
+	<header id="contenthead">
+		<div class="site-branding">
+			<h1 id="sitetitle"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><span><?php bloginfo( 'name' ); ?></span></a></h1>
+			<nav id="site-navigation" class="main-navigation" role="navigation">
+				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			</nav><!-- #site-navigation -->
+		</div><!-- .site-branding -->
+	</header><!-- #masthead -->
+<?php } ?>
+
 
 	<div id="content" class="site-content">
