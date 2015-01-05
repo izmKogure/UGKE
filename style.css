@@ -144,52 +144,6 @@ header#mainhead ul li a {
 	color:#ffffff;
 }
 
-/*** contenthead ***/
-header#contenthead {
-	width:100%;
-	height:240px;
-	margin:0 auto;
-	background-image:url(images/entryheadbg.jpg);
-	background-repeat: no-repeat;
-	background-position:50% 50%;
-	background-size: cover;
-	margin-bottom:40px;
-}
-header#contenthead div {
-	width:960px;
-	height:240px;
-	margin:0 auto;
-}
-header#contenthead:after {
-	content: "";
-	clear: both;
-	height: 0;
-	display: block;
-	visibility: hidden;
-}
-header#contenthead ul {
-	float:right;
-}
-header#contenthead ul li {
-	float:left;
-	margin-right:40px;
-	font-size:14px;
-	line-height:80px;
-}
-header#contenthead ul li:last-child {
-	margin-right:0;
-}
-header#contenthead ul li:after {
-	content: "";
-	clear: both;
-	height: 0;
-	display: block;
-	visibility: hidden;
-}
-header#contenthead ul li a {
-	color:#ffffff;
-}
-
 
 /*** index ***/
 #video-background {
@@ -493,12 +447,30 @@ section#news div#likebox:after {
 }
 
 /*** Page ***/
-h1.entry-title {
+/* コメント非表示 */
+div#comments {
 	display:none;
+}
+
+h1.entry-title {
+	width:100%;
+	height:95px;
+	margin-bottom:40px;
+	font-size:40px;
+	line-height:1em;
+	text-align:center;
+	color:#ffffff;
+	padding-top:145px;
+	margin-top:-80px;
+	background-image:url(images/entryheadbg.jpg);
+	background-repeat:norepeat;
+	background-position:50% 50%;
+	background-size:cover;
 }
 div.entry-content {
 	width:960px;
 	margin:0 auto;
+	margin-bottom:60px;
 }
 div.entry-content h2 {
 	font-size:30px;
@@ -508,7 +480,6 @@ div.entry-content h2 {
 div.entry-content p {
 	font-size:16px;
 	line-height:1.5em;
-	margin-bottom:60px;
 }
 
 

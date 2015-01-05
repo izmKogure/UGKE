@@ -18,7 +18,6 @@
 
 <body <?php body_class(); ?>>
 <div>
-<?php if (is_home()) {?>
 	<header id="mainhead">
 		<div class="site-branding">
 			<h1 id="sitetitle"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><span><?php bloginfo( 'name' ); ?></span></a></h1>
@@ -27,16 +26,6 @@
 			</nav><!-- #site-navigation -->
 		</div><!-- .site-branding -->
 	</header><!-- #masthead -->
-<?php } else{ ?>
-	<header id="contenthead">
-		<div class="site-branding">
-			<h1 id="sitetitle"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><span><?php bloginfo( 'name' ); ?></span></a></h1>
-			<nav id="site-navigation" class="main-navigation" role="navigation">
-				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-			</nav><!-- #site-navigation -->
-		</div><!-- .site-branding -->
-	</header><!-- #masthead -->
-<?php } ?>
 
 
 	<div id="content" class="site-content">

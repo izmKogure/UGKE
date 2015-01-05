@@ -131,9 +131,7 @@ require get_template_directory() . '/inc/jetpack.php';
 
 add_theme_support( 'post-thumbnails' );
 
-/**
- *PHP include
-*/
+//PHP include
 function Include_my_php($params = array()) {
     extract(shortcode_atts(array(
         'file' => 'default'
@@ -144,49 +142,3 @@ function Include_my_php($params = array()) {
 }
  
 add_shortcode('myphp', 'Include_my_php');
-
-/**
- *CustumPost
-*/
-add_action( 'init', 'register_cpt_performance' );
-
-function register_cpt_performance() {
-
-    $labels = array( 
-        'name' => _x( 'performances', 'performance' ),
-        'singular_name' => _x( 'performance', 'performance' ),
-        'add_new' => _x( '新規作成', 'performance' ),
-        'add_new_item' => _x( '新しい実績を追加', 'performance' ),
-        'edit_item' => _x( '実績を編集', 'performance' ),
-        'new_item' => _x( '新しい実績', 'performance' ),
-        'view_item' => _x( '実績を見る', 'performance' ),
-        'search_items' => _x( '実績を検索', 'performance' ),
-        'not_found' => _x( '実績が見つかりません', 'performance' ),
-        'not_found_in_trash' => _x( 'ゴミ箱に実績はありません', 'performance' ),
-        'parent_item_colon' => _x( '親実績', 'performance' ),
-        'menu_name' => _x( '実績', 'performance' ),
-    );
-
-    $args = array( 
-        'labels' => $labels,
-        'hierarchical' => true,
-        'description' => '実績',
-        'supports' => array( 'title', 'editor', 'excerpt', 'thumbnail', 'custom-fields' ),
-        
-        'public' => true,
-        'show_ui' => true,
-        'show_in_menu' => true,
-        
-        
-        'show_in_nav_menus' => true,
-        'publicly_queryable' => true,
-        'exclude_from_search' => false,
-        'has_archive' => true,
-        'query_var' => true,
-        'can_export' => true,
-        'rewrite' => true,
-        'capability_type' => 'post'
-    );
-
-    register_post_type( 'performance', $args );
-}
