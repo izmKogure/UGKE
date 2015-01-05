@@ -88,6 +88,9 @@ input, select {
 
 
 /*****----- OptionCSS -----*****/
+* {
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
 /*** header ***/
 h1#sitetitle {
 	display:block;
