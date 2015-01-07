@@ -12,17 +12,21 @@
 
 get_header(); ?>
 <h2 class="performance">実績一覧</h2>
-	<ul>
+
 		<?php query_posts('post_type=performance&showposts=4');
 		if (have_posts()) : while (have_posts()) : the_post(); ?>
-			<li><a href="<?php the_permalink(); ?>">
-			<?php the_post_thumbnail(array(176,100)); ?></a>
-			<p><span><?php the_time(Y年m月d日); ?></span><br>
-			<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
-			<viddeo src="<?php the_field('実績動画',$post -> ID); ?>">
-			<p><?php the_field('クライアント',$post->ID); ?></p>
-			</li>
+			<dl  class="performanceslist">
+				<dt>
+					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array(220,124)); ?></a>
+				</dt>
+				<dd>
+					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+					<p class="client"><?php the_field('クライアント',$post->ID); ?></p>
+					<p class="category"><span class="genre"><?php the_field('ジャンル',$post->ID); ?></span>&nbsp;&nbsp;<span class="plan"><?php the_field('プラン',$post->ID); ?></spn></p>
+					<?php the_content( $post->post_content ) ?>
+				</dd>
+			</dl>
 		<?php endwhile; endif; wp_reset_query(); ?>
-	</ul>
+
 
 <?php get_footer(); ?>

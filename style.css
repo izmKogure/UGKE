@@ -87,11 +87,15 @@ input, select {
 }
 
 
-/*****----- OptionCSS -----*****/
+/**
+ * -----Option CSS-----
+  */
 * {
 	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
-/*** header ***/
+/**
+ * header　全ページ共通
+ */
 h1#sitetitle {
 	display:block;
 	width:240px;
@@ -146,9 +150,13 @@ header#mainhead ul li:after {
 header#mainhead ul li a {
 	color:#ffffff;
 }
+/**
+ * header　全ページ共通 END
+ */
 
-
-/*** index ***/
+/**
+ *index　トップページ
+ */
 #video-background {
 	display:block;
 	width: 100%; 
@@ -448,13 +456,19 @@ section#news div#likebox:after {
 	display: block;
 	visibility: hidden;
 }
+/**
+ *index　トップページ END
+ */
 
-/*** Page ***/
-/* コメント非表示 */
-div#comments {
-	display:none;
-}
 
+/**
+ *Page　固定ページ
+ */
+/* コメント非表示　固定ページ共通 */
+div#comments { display:none; }
+/* コメント非表示　固定ページ共通 END */
+
+/* Page　固定ページ共通ヘッダー */
 h1.entry-title {
 	width:100%;
 	height:95px;
@@ -470,6 +484,8 @@ h1.entry-title {
 	background-position:50% 50%;
 	background-size:cover;
 }
+/* Page　固定ページ共通ヘッダー END */
+/* Page　固定ページ共通 */
 div.entry-content {
 	width:960px;
 	margin:0 auto;
@@ -484,7 +500,57 @@ div.entry-content p {
 	font-size:16px;
 	line-height:1.5em;
 }
+/* Page　固定ページ共通 END */
 
+/* 実績一覧 */
+h2.performance {
+	padding-bottom:20px;
+	margin-bottom:30px !important;
+	border-bottom:solid 1px #000000;
+}
+dl.performanceslist dt {
+	height:124px;
+}
+dl.performanceslist dt img {
+	width:220px;
+	height:124px;
+}
+dl.performanceslist dd {
+	margin:-124px 0 0 235px;
+	min-height:124px;
+}
+dl.performanceslist dd h3 {
+	font-size:20px;
+	line-height:1em;
+	margin-bottom:6px;
+}
+dl.performanceslist dd h3 a {
+	color:#d13131;
+}
+dl.performanceslist dd p {
+	font-size:14px;
+	line-height:18px;
+}
+dl.performanceslist dd p.client {
+	font-weight:bold;
+}
+dl.performanceslist dd p span.genre:before {
+	content:"ジャンル：";
+}
+dl.performanceslist dd p span.plan:before {
+	content:"プラン：";
+}
+dl.performanceslist dd p.category {
+	margin-bottom:14px;
+}
+dl.performanceslist {
+	margin-bottom:20px;
+	padding-bottom:30px;
+	border-bottom:1px dashed #000000;
+}
+dl.performanceslist:last-child {
+	border-bottom:1px solid #000000;
+}
 
 /*** footer ***/
 footer {
