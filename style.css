@@ -466,7 +466,7 @@ section#news div#likebox:after {
  */
 /* コメント非表示　固定ページ共通 */
 div#comments { display:none; }
-div#secondary { display:hidden; }
+div#secondary { display:hidden !important; }
 /* コメント非表示　固定ページ共通 END */
 
 /* Page　固定ページ共通ヘッダー */
