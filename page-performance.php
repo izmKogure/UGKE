@@ -13,7 +13,7 @@
 get_header(); ?>
 <h2 class="performance">実績一覧</h2>
 
-		<?php query_posts('post_type=performance&showposts=4');
+		<?php query_posts('post_type=performance');
 		if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<dl  class="performanceslist">
 				<dt>
