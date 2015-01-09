@@ -190,3 +190,34 @@ function register_cpt_performance() {
 
     register_post_type( 'performance', $args );
 }
+
+/**
+ *年別表示
+*/
+function get_archives_by_fiscal_year( $args = '' ) {
+    global $wpdb, $wp_locale;
+    $defaults = array (
+        'post_type' => 'post',
+        'limit' => '',
+        'format' => 'html',
+        'before' => '',
+        'after' => '',
+        'show_post_count' => false,
+        'echo' => 1
+    );
+    $r = wp_parse_args( $args, $defaults );
+    extract ( $r, EXTR_SKIP );
+    if ( '' != $limit ) {
+        $limit = absint( $limit );
+        $limit = ' LIMIT ' . $limit;
+    }
+    $arcresults = (array) $wpdb->get_results(
+        "SELECT YEAR(ADDDATE(post_date, INTERVAL -3 MONTH)) AS `year`, COUNT(ID) AS `posts`
+        FROM $wpdb->posts
+        WHERE post_type = '$post_type' AND post_status = 'publish'
+        GROUP BY YEAR(ADDDATE(post_date))
+        ORDER BY post_date DESC
+        $limit"
+    );
+    return $arcresults;
+}
