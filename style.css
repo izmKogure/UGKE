@@ -616,6 +616,56 @@ div.performance-footer a {
 	border-bottom:1px solid #000000;
 }
 /* 実績詳細 */
+/* ニュース一覧 */
+h2.news {
+
+}
+dl.news-list dt {
+	width:300px;
+	height:100%;
+	padding-top:20px;
+	border-top:1px solid #000000;
+	float:left;
+}
+dl.news-list dt p {
+	font-size:26px;
+	line-height:1.5em;
+	background-image:url(images/news_tri_bg.png);
+	background-repeat:no-repeat;
+	background-position:right 50%;
+}
+dl.news-list dd {
+	width:630px;
+	margin-left:330px;
+	padding:20px 0;
+	border-bottom: dotted 1px #000000;
+}
+dl.news-list dt+dd {
+	border-top: solid 1px #000000;
+}
+dl.news-list dd h3 {
+	font-size:20px;
+	line-height:1em;
+	margin-bottom:15px;
+}
+dl.news-list dd h3 a {
+	color:#333333;
+}
+dl.news-list dd p.date {
+	font-size:16px;
+	line-height:1em;
+	margin-bottom:20px;
+}
+dl.news-list dd img {
+	width:630px;
+	height:auto;
+	margin-bottom:20px;
+}
+dl.news-list dd p {
+	font-size:16px;
+	line-height:1.5em;
+}
+/* ニュース一覧 */
 
 
 /*** SNSボタン ***/
