@@ -38,7 +38,7 @@
 		</div>
 		<div id="copyright">
 			<div class="wrapper">
-				2014 © UGOKIE<span>会社概要　／　クリエイター募集　／　個人情報保護方針</span>
+				2014 © UGOKIE<span><a href="会社概要">会社概要</a>　／　クリエイター募集　／　<a href="個人情報保護方針">個人情報保護方針</a></span>
 			</div>
 		</div>
 	</footer><!-- #colophon -->

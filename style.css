@@ -667,6 +667,49 @@ dl.news-list dd p {
 }
 /* ニュース一覧 */
 
+/* 会社概要 */
+table#gaiyou th {
+	font-size:16px;
+	line-height:1.5em;
+	font-weight:normal;
+	width:270px;
+	text-align:left;
+	padding:34px 26px;
+	border-top:solid 1px #000000;
+	border-right:dotted 1px #000000;
+	border-bottom:solid 1px #000000;
+}
+table#gaiyou td {
+	font-size:16px;
+	line-height:1.5em;
+	padding:34px 26px;
+	border-top:solid 1px #000000;
+	border-bottom:solid 1px #000000;
+}
+/* 会社概要 */
+
+/* 個人情報保護方針 */
+div#privacy section {
+	margin-bottom:70px;
+}
+div#privacy section:last-child {
+	margin-bottom:0;
+}
+div#privacy p {
+	font-size:18px;
+	line-height:1.9em;
+}
+div#privacy h3 {
+	font-size:30px;
+	line-height:1em;
+	margin-bottom:20px;
+}
+div#privacy p.seitei {
+	margin-top:30px;
+	text-align:right;
+}
+/* 個人情報保護方針 */
+
 
 /*** SNSボタン ***/
 .snsb {
