@@ -284,16 +284,19 @@ section#performance h3 {
 	line-height:1em;
 	margin-bottom:40px;
 }
-section#performance ul {
+section#performance ul,
+div#price ul.price-genre {
 	width:960px;
 	margin:0 auto;
 	height:134px;
 	margin-bottom:80px;
 }
-section#performance ul:after {
+section#performance ul:after,
+div#price ul.price-genre:after {
 	clear:both;
 }
-section#performance ul li {
+section#performance ul li,
+div#price ul.price-genre li {
 	width:168px;
 	height:134px;
 	list-style:none;
@@ -303,10 +306,12 @@ section#performance ul li {
 	line-height:1em;
 	text-align:center;
 }
-section#performance ul li img{
+section#performance ul li img,
+div#price ul.price-genreli img {
 	margin-bottom:18px;
 }
-section#performance ul li:last-child {
+section#performance ul li:last-child,
+div#price ul.price-genre li:last-child {
 	margin-right:0;
 }
 section#performance div {
@@ -400,9 +405,11 @@ section#news div.side-news {
 	width:450px;
 	float:left;
 	margin-right:60px;
+	z-index:2;
 }
 section#news div.side-news ul {
 	width:450px;
+	z-index:2;
 }
 section#news div.side-news ul li {
 	list-style:none;
@@ -448,6 +455,7 @@ section#news div#likebox {
 	height:520px;
 	position:relative;
 	top:-60px;
+	z-index:1;
 }
 section#news div#likebox:after {
 	content: "";
@@ -710,6 +718,127 @@ div#privacy p.seitei {
 }
 /* 個人情報保護方針 */
 
+/* 料金・特徴 */
+div#price section {
+	padding:70px 0 80px 0;
+}
+div#price section.gray {
+	background-color:#f7f6f6;
+}
+div#price section div.pricewrapper {
+	width:960px;
+	margin:0 auto;
+}
+div#price section:after {
+	content: "";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+}
+div#price h2 {
+	margin-bottom:30px;
+	font-size:30px;
+	line-height:84px;
+	padding-left:100px;
+}
+div#price h2 {
+	background: url(images/price_icon01.png) no-repeat left 50%;
+}
+div#price h2.price2 {
+	background-image:url(images/price_icon02.png);
+}
+div#price h2.price3 {
+	background-image:url(images/price_icon03.png);
+}
+div#price h2.price4 {
+	background-image:url(images/price_icon04.png);
+}
+div#price h2+p {
+	font-size:18px;
+	line-height:1.9em;
+}
+div#price h3.pink {
+	font-size:26px;
+	line-height:80px;
+	color:#d32626;
+	margin-bottom:20px;
+	border-radius: 10px;        /* 共通 */  
+	-webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+	-moz-border-radius: 10px;   /* Firefox用 */ 
+	padding-left:50px;
+	background: #fddcdc url(images/price_icon_h3.png) no-repeat 17px 50%;
+}
+div#price h3+p {
+	font-size:18px;
+	line-height:1.9em;
+}
+div#price hr {
+	margin:40px 0 ;
+	border-style: dotted;
+}
+div#price td.text {
+	vertical-align:middle;
+	padding-left:40px;
+}
+div#price td.text h3 {
+	font-size:30px;
+	line-height:40px;
+	font-weight:normal;
+	margin-bottom:30px;
+}
+div#price td.text p {
+	font-size:18px;
+	line-height:30px;
+	font-weight:normal;
+	margin-bottom:30px;
+}
+div#price ul.kome  li {
+	list-style:none;
+	padding-left: 1em;
+	text-indent: -1em;
+	font-size:14px;
+	line-height:1.9em;
+}
+div#price ul.kome li:before {
+	content:"※";
+}
+div#price img.price-ill {
+	margin-bottom:40px;
+}
+div#price ul.tag {
+	margin-bottom:48px;
+}
+div#price ul.tag li {
+	font-size:24px;
+	line-height:1em;
+	list-style:none;
+	float:left;
+	padding:0 26px;
+	border-right:solid 1px #000000;
+}
+div#price ul.tag li:first-child {
+	padding-left:0;
+}
+div#price ul.tag li:last-child {
+	border-right:none;
+}
+div#price ul.tag:after {
+	content: "";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+}
+div#price ul.price-genre {
+	margin-bottom:20px;
+}
+div#price p span {
+	font-size:16px;
+	line-height:24px;
+}
+/* 料金・特徴 */
+
 
 /*** SNSボタン ***/
 .snsb {
@@ -811,4 +940,16 @@ footer div#copyright span {
 
 span.edit-link {
 	display:none;
+}
+
+/* 共通CSS */
+div.center {
+	text-align:center;
+}
+
+.mgrb40 {
+	margin-bottom:40px;
+}
+.mgrb60 {
+	margin-bottom:60px;
 }
