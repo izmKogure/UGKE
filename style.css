@@ -500,10 +500,13 @@ div.entry-content {
 	margin:0 auto;
 	margin-bottom:60px;
 }
-div.entry-content h2 {
-	font-size:30px;
-	line-height:1em;
+div.entry-content h2,
+div#form h2 {
+	font-size:40px;
+	line-height:84px;
+	padding-left:100px;
 	margin-bottom:20px;
+	background: url(images/background_h2_entry.png) no-repeat left 50%;
 }
 div.entry-content p {
 	font-size:16px;
@@ -625,9 +628,6 @@ div.performance-footer a {
 }
 /* 実績詳細 */
 /* ニュース一覧 */
-h2.news {
-
-}
 dl.news-list dt {
 	width:300px;
 	height:100%;
@@ -839,6 +839,25 @@ div#price p span {
 }
 /* 料金・特徴 */
 
+/* お問合せ */
+div#form {
+	width:1060px;
+	margin:0 auto;
+	padding-left:50px;
+}
+div#form p {
+	font-size:18px;
+	line-height:1.9em;
+	margin-bottom:40px;
+}
+div#form img {
+	margin-bottom:50px;
+}
+div#form table {
+	margin-bottom:80px;
+}
+/* お問合せ */
+
 
 /*** SNSボタン ***/
 .snsb {
@@ -948,8 +967,11 @@ div.center {
 }
 
 .mgrb40 {
-	margin-bottom:40px;
+	margin-bottom:40px !important;
+}
+.mgrb50 {
+	margin-bottom:50px !important;
 }
 .mgrb60 {
-	margin-bottom:60px;
+	margin-bottom:60px !important;
 }
