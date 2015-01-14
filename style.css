@@ -178,9 +178,11 @@ body.home div#content {
 	z-index: -100;
 }
 div#mainvideo {
-	width:150%;
+	width:100%;
+	min-width:1790px;
 	margin: 0 auto;
 	height:auto;
+	max-height:720px;
 	overflow:hidden;
 	position:absolute;
 	top:0;

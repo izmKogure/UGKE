@@ -41,13 +41,13 @@ get_header(); ?>
 						);
 						if(have_posts()) :
 					?>
-					<dd>
 						<?php while (have_posts()) : the_post(); ?>
-						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-						<p class="date"><?php the_time(Y年m月d日); ?></p>
-						<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array(220,124)); ?></a>
+						<dd>
+							<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							<p class="date"><?php the_time(Y年m月d日); ?></p>
+							<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array(220,124)); ?></a>
+						</dd>
 						<?php endwhile; ?>
-					</dd>
 					<?php endif; ?>
 				<?php wp_reset_query(); ?>
 			</dl>
