@@ -221,3 +221,9 @@ function get_archives_by_fiscal_year( $args = '' ) {
     );
     return $arcresults;
 }
+
+// Contact Form 7 にショートコードを追加
+function get_mytheme_url() {
+    return get_template_directory_uri();
+}
+wpcf7_add_shortcode('show_mytheme_url', 'get_mytheme_url', true);
