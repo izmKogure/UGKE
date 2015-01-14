@@ -13,7 +13,7 @@
 	<footer role="contentinfo">
 		<div id="call">
 			<div class="wrapper">
-				<img src="<?php bloginfo('template_directory');?>/images/button_shitumon.png" width="320" height="60" alt="ご質問・ご依頼はこちら">0120-666-6666<span>受付時間 ／ 平日10:00〜21:00</span>
+				<a href="お問合せ"><img src="<?php bloginfo('template_directory');?>/images/button_shitumon.png" width="320" height="60" alt="ご質問・ご依頼はこちら"></a>0120-666-6666<span>受付時間 ／ 平日10:00〜21:00</span>
 			</div>
 		</div>
 		<div id="serviceinfo">

@@ -106,7 +106,7 @@ h1#sitetitle {
 	margin-right:90px;
 	margin-top:13px;
 }
-h1#sitetitle a span {
+h1#sitetitle span {
 	display:none;
 }
 
@@ -1009,7 +1009,8 @@ footer div#boshu {
 	text-align:center;
 	padding:20px 0;
 }
-footer div#copyright {
+footer div#copyright,
+footer div#copyright span a {
 	height:40px;
 	background-color:#222222;
 	color:#ffffff;

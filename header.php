@@ -20,7 +20,7 @@
 <div>
 	<header id="mainhead">
 		<div class="site-branding">
-			<h1 id="sitetitle"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><span><?php bloginfo( 'name' ); ?></span></a></h1>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h1 id="sitetitle"><span><?php bloginfo( 'name' ); ?></span></h1></a>
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			</nav><!-- #site-navigation -->
