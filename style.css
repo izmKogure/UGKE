@@ -410,6 +410,8 @@ section#news h2 {
 	font-size:30px;
 	line-height:1em;
 	margin-bottom:30px;
+	position:relative;
+	z-index:2;
 }
 section#news h2 img {
 	vertical-align:bottom;
@@ -419,6 +421,7 @@ section#news div.side-news {
 	width:450px;
 	float:left;
 	margin-right:60px;
+	position:relative;
 	z-index:2;
 }
 section#news div.side-news ul {

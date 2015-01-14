@@ -99,7 +99,7 @@ get_header(); ?>
 
 			<section id="news">
 				<div class="wrapper">
-					<h2>ニュース<img src="<?php bloginfo('template_directory');?>/images/button_tri.png" width="30" height="30" alt=""></h2>
+					<h2>ニュース<a href="ニュース"><img src="<?php bloginfo('template_directory');?>/images/button_tri.png" width="30" height="30" alt=""></a></h2>
 					
 					<div class="side-news">
 						<ul class="blog">
