@@ -114,7 +114,9 @@ header#mainhead {
 	width:100%;
 	height:80px;
 	margin:0 auto;
-	background-color:rgba(0,0,0,0.2);
+	background-color:rgba(255,255,255,0.2);
+	position:relative;
+	z-index:1;
 }
 header#mainhead div {
 	width:960px;
@@ -150,6 +152,16 @@ header#mainhead ul li:after {
 header#mainhead ul li a {
 	color:#ffffff;
 }
+div#primary,
+div#content {
+	position: relative;
+	z-index: 0;
+}
+body.home div#primary,
+body.home div#content {
+	position:static;
+	z-index: 0;
+}
 /**
  * header　全ページ共通 END
  */
@@ -166,9 +178,9 @@ header#mainhead ul li a {
 	z-index: -100;
 }
 div#mainvideo {
-	width:100%;
+	width:150%;
 	margin: 0 auto;
-	height:720px;
+	height:auto;
 	overflow:hidden;
 	position:absolute;
 	top:0;
@@ -889,9 +901,18 @@ div#form table#form textarea {
 div#form table#form input,textarea {
 	width:100%;
 }
+div#form table#form td.submit {
+	padding:35px 0 0 0;
+}
 div#form table#form td.submit input {
 	width:290px;
 	height:80px;
+}
+div#form table#form select {
+	width:170px;
+	height:40px;
+	font-size:16px;
+	line-height:1.5em;
 }
 div#form table#form span.wpcf7-not-valid-tip {
 	display:block;

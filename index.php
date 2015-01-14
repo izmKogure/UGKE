@@ -17,7 +17,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<div id="mainvideo">
 				<video autoplay loop poster="http://mattgrossdesign.com/raw-media/first-frame-screencap" id="video-background" muted>
-					<source src="<?php bloginfo('template_directory');?>/images/d.mp4" type="video/webm">
+					<source src="<?php bloginfo('template_directory');?>/images/UGOKIE_PV_AE_20150110.mp4" type="video/webm">
 				</video>
 			</div>
 			<section id="mainvisual">
