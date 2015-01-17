@@ -11,6 +11,9 @@
 	</div><!-- #content -->
 
 	<footer role="contentinfo">
+		<div class="wrapper right">
+			<p id="pagetop"><a id="#move-page-top" href="#">▲&nbsp;ページトップへ</a></p>
+		</div>
 		<div id="call">
 			<div class="wrapper">
 				<ul>
@@ -47,6 +50,28 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script type="text/javascript">
+jQuery(function(){
+  jQuery(window).scroll(function(){
+    //最上部から現在位置までの距離を取得して、変数[now]に格納
+    var now = jQuery(window).scrollTop();
+    //最上部から現在位置までの距離(now)が600以上
+    if(now > 600){
+      //[#page-top]をゆっくりフェードインする
+      jQuery('#page-top').fadeIn('slow');
+      //それ以外だったらフェードアウトする
+    }else{
+      jQuery('#page-top').fadeOut('slow');
+    }
+  });
+  //ボタン(id:move-page-top)のクリックイベント
+  jQuery('#move-page-top').click(function(){
+  //ページトップへ移動する
+  jQuery('body,html').animate({
+          scrollTop: 0
+      }, 800);
+  });
+});
+</script>
 </body>
 </html>
