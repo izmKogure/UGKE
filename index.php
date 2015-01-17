@@ -22,66 +22,86 @@ get_header(); ?>
 			</div>
 			<section id="mainvisual">
 				<div>
-				<h2>映像制作ならUGOKIEへお任せ下さい</h2>
+				<h2>作るだけの動画制作はもう古い</h2>
+				<p>動画活用のお悩みはUGOKIE（ウゴキエ）で解決！</p>
 				<ul>
-					<li>安心の料金</li>
-					<li>サービスの特徴</li>
+					<li><a href="">安心の料金</a></li>
+					<li><a href="">サービスの特徴</a></li>
 				</ul>
 				</div>
 			</section>
 
 			<section id="performance">
-				<h2>動画の活用シーン</h2>
-				<dl>
-					<dt><span>“動画”や“動画広告”ってフレーズを最近よく耳にするけど、実際どんな場面で動画を活用したら良いの？</span></dt>
-					<dd><span>ひとことで“動画”といっても、用途に応じた様々な映像があります。用途は大きく分けて２つ。消費者向けに商品の販売促進や会社のPＲ等を目的とする映像と会社のスタッフや関係者向けに交流や現場改善等を目的とする映像の２つがあります。UGOKIE（ウゴキエ）はWebCMからアプリ紹介動画、企業のプレゼンテーション動画まで幅広い動画制作に対応し、お客様の求める最適な動画活用をご提案致します。</span></dd>
-				</dl>
-
-				<h3>消費者向けジャンル</h3>
-				<ul>
-					<li><img src="<?php bloginfo('template_directory');?>/images/icon_cm.png" width="168" height="101" alt="CM">CM</li>
-					<li><img src="<?php bloginfo('template_directory');?>/images/icon_app.png" width="168" height="101" alt="アプリ紹介">アプリ紹介</li>
-					<li><img src="<?php bloginfo('template_directory');?>/images/icon_interview.png" width="168" height="101" alt="インタビュー">インタビュー</li>
-					<li><img src="<?php bloginfo('template_directory');?>/images/icon_event.png" width="168" height="101" alt="展示・イベント">展示・イベント</li>
-					<li><img src="<?php bloginfo('template_directory');?>/images/icon_rec.png" width="168" height="101" alt="採用">採用</li>
+				<h2>UGOKIEが選ばれる理由</h2>
+				<ul class="reason">
+					<li>
+						<img src="<?php bloginfo('template_directory');?>/images/top_ill_01.png" width="280" height="213" alt="CM">
+						<h3>明解な料金プラン</h3>
+						<p>追加の制作料金は<br>一切頂きません。</p>
+						<a href="#" style="background-image:url(<?php bloginfo('template_directory');?>/images/button_top_01.png);"><span>料金プランを見る</span></a>
+					</li>
+					<li>
+						<img src="<?php bloginfo('template_directory');?>/images/top_ill_02.png" width="280" height="213" alt="CM">
+						<h3>安心の制作フロー</h3>
+						<p>クラウドソーシングのような<br>不自由さとは無縁です。</p>
+						<a href="#" style="background-image:url(<?php bloginfo('template_directory');?>/images/button_top_02.png);"><span>制作フロー</span></a>
+					</li>
+					<li>
+						<img src="<?php bloginfo('template_directory');?>/images/top_ill_03.png" width="280" height="213" alt="CM">
+						<h3>アフターフォロー</h3>
+						<p>一度配信した動画の<br>修正も心配いりません！</p>
+						<a href="#" style="background-image:url(<?php bloginfo('template_directory');?>/images/button_top_03.png);"><span>アフターフォローを見る</span></a>
+					</li>
 				</ul>
-				<h3>開発者向けジャンル</h3>
-				<ul>
-					<li><img src="<?php bloginfo('template_directory');?>/images/icon_prezen.png" width="168" height="101" alt="プレゼン">プレゼン</li>
-					<li><img src="<?php bloginfo('template_directory');?>/images/icon_manu.png" width="168" height="101" alt="マニュアル">マニュアル</li>
-					<li><img src="<?php bloginfo('template_directory');?>/images/icon_kyouiku.png" width="168" height="101" alt="教育研修">教育研修</li>
-					<li><img src="<?php bloginfo('template_directory');?>/images/icon_kinen.png" width="168" height="101" alt="記念行事">記念行事</li>
-					<li><img src="<?php bloginfo('template_directory');?>/images/icon_katsudou.png" width="168" height="101" alt="活動記録">活動記録</li>
-				</ul>
-				<div>
-					<img src="<?php bloginfo('template_directory');?>/images/button_moregenre.gif" width="288" height="78" alt="もっとジャンルを見る">
-				</div>
 			</section>
 
 			<section id="service">
-				<h2>UGOKIEのサービスについて</h2>
-				<dl>
-					<dt><span>他の動画制作サービスやクラウドソーシングとUGOKIEはどう違うの？</span></dt>
-					<dd><span>UGOKIEは動画の制作から運用(動画の再活用)までをトータルにサポートするサービスです。また、依頼主さまのプランニング作業や交渉を必要とする動画制作クラウドソーシングとは違い、私たちUGOKIEがプランニングから実制作、クオリティー管理、配信先の提案（アフターフォロー）まで全て行います。動画の制作料金も４つのコースプランを予めご用意していますので、最後に不透明な追加料金を請求する事もございません。</span></dd>
-				</dl>
-
-				<ul>
-					<li>
-						<img src="<?php bloginfo('template_directory');?>/images/icon_ryoukin.png" width="280" height="280" alt="明解な料金プラン">
-						<h3>明解な料金プラン</h3>
-						<p>9.8万円のプランからオリジナルプランまで４つのコースを予めご用意しています。（オリジナルプラン以外の３コースは）予算や制作内容にマッチしたプランをお選び頂くだけで、難解な見積書に目を通す必要もありません。納品後に追加料金を請求する事も無いため、後から予算追加の心配も一切ありません。</p>
-					</li>
-					<li>
-						<img src="<?php bloginfo('template_directory');?>/images/icon_anshin.png" width="280" height="280" alt="安心の制作フロー">
-						<h3>安心の制作フロー</h3>
-						<p>クラウドソーシングとは違い、一貫してマネージメントを行います。依頼したけど期限になっても提案がない…こちらの要望とかけ離れている…というような苦労とは無縁です。コース別の制作フローに沿って安心した動画制作を提供致します。</p>
-					</li>
-					<li>
-						<img src="<?php bloginfo('template_directory');?>/images/icon_after.png" width="280" height="280" alt="アフターフォロー">
-						<h3>アフターフォロー</h3>
-						<p>近年、動画の配信先はTVCMに限らず、街頭テレビジョンやYouTube、スマホへのリッチ広告と多種多様に広がっています。せっかく予算と時間をかけて制作した動画を１つの場所に限って配信したのでは、ムダが多いうえ、宣伝効果も限られます。UGOKIEでは制作済みの動画コンテンツを別の媒体先でも配信できるように再活用の提案と動画編集も行なっております。</p>
-					</li>
+				<h2>UGOKIEなら様々な動画ジャンルに対応</h2>
+				<hr>
+				<h3 class="pink">WebCMからリクルート映像の制作が可能</h3>
+				<div class="wrapper" >
+					<dl class="genre">
+						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_01.png" width="225" height="134" alt="CM"></dt>
+						<dd><a href="">CM<br>ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
+					</dl>
+					<dl class="genre">
+						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_02.png" width="225" height="134" alt="CM"></dt>
+						<dd><a href="">アプリ紹介<br>ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
+					</dl>
+					<dl class="genre">
+						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_03.png" width="225" height="134" alt="CM"></dt>
+						<dd><a href="">展示会・イベント<br>ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
+					</dl>
+					<dl class="genre last">
+						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_04.png" width="225" height="134" alt="CM"></dt>
+						<dd><a href="">採用<br>ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
+					</dl>
+				<div class="clearfix"></div>
+				</div>
 				</ul>
+				<h3 class="pink">更に社内向け映像の制作も強化</h3>
+				<div class="wrapper" >
+					<dl class="genre">
+						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_05.png" width="225" height="134" alt="CM"></dt>
+						<dd><a href="">プレゼン<br>ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
+					</dl>
+					<dl class="genre">
+						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_06.png" width="225" height="134" alt="CM"></dt>
+						<dd><a href="">マニュアル<br>ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
+					</dl>
+					<dl class="genre">
+						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_07.png" width="225" height="134" alt="CM"></dt>
+						<dd><a href="">教育研修<br>ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
+					</dl>
+					<dl class="genre last">
+						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_08.png" width="225" height="134" alt="CM"></dt>
+						<dd><a href="">記念行事<br>ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
+					</dl>
+				<div class="clearfix"></div>
+				<div class="center">
+					<img src="<?php bloginfo('template_directory');?>/images/button_moregenre.gif" width="288" height="78" alt="もっとジャンルを見る">
+				</div>
+				</div>
 			</section>
 
 			<section id="seisaku">

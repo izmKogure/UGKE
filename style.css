@@ -103,7 +103,7 @@ h1#sitetitle {
 	background-image:url("images/logo.png");
 	background-repeat:no-repeat;
 	float:left;
-	margin-right:90px;
+	margin-right:40px;
 	margin-top:13px;
 }
 h1#sitetitle span {
@@ -114,7 +114,7 @@ header#mainhead {
 	width:100%;
 	height:80px;
 	margin:0 auto;
-	background-color:rgba(255,255,255,0.2);
+	background-color:rgba(255,255,255,0.5);
 	position:relative;
 	z-index:1;
 }
@@ -135,9 +135,9 @@ header#mainhead ul {
 }
 header#mainhead ul li {
 	float:left;
-	margin-right:40px;
-	font-size:14px;
+	font-size:16px;
 	line-height:80px;
+	height:80px;
 }
 header#mainhead ul li:last-child {
 	margin-right:0;
@@ -150,7 +150,15 @@ header#mainhead ul li:after {
 	visibility: hidden;
 }
 header#mainhead ul li a {
+	min-width:80px;
+	padding:0 18px;
+	display:inline-block;
+	color:#333333;
+	text-align:center;
+}
+header#mainhead ul li a:hover {
 	color:#ffffff;
+	background-color:#c82626;
 }
 div#primary,
 div#content {
@@ -179,14 +187,17 @@ body.home div#content {
 }
 div#mainvideo {
 	width:100%;
-	min-width:1790px;
 	margin: 0 auto;
-	height:auto;
-	max-height:720px;
+	height:720px;
 	overflow:hidden;
 	position:absolute;
 	top:0;
 	z-index:-100;
+}
+div#mainvideo video {
+	width:100%;
+	min-width:1790px;
+	height:auto;
 }
 section#mainvisual {
 	position:relative;
@@ -204,15 +215,20 @@ section#mainvisual div {
 	bottom: 0;
 	margin: auto;
 	width:910px;
-	height:155px;
+	height:212px;
 }
 section#mainvisual h2 {
 	text-align:center;
-	margin-bottom:45px;
+	margin-bottom:24px;
 	font-size:40px;
 	line-height:1em;
 }
-
+section#mainvisual p {
+	text-align:center;
+	margin-bottom:50px;
+	font-size:24px;
+	line-height:1em;
+}
 section#mainvisual ul {
 	width:580px;
 	height:70px;
@@ -220,13 +236,21 @@ section#mainvisual ul {
 	list-style:none;
 }
 section#mainvisual ul li {
-	font-size:26px;
-	line-height:70px;
-	width:280px;
 	float:left;
+}
+section#mainvisual ul li a {
 	display:block;
-	background-color:#D55C5A;
+	font-size:26px;
+	line-height:66px;
+	width:276px;
+	display:block;
+	background-color:rgba(255,255,255,0.3);
 	text-align:center;
+	border:2px solid #ffffff;
+	color:#ffffff;
+}
+section#mainvisual ul li a:hover {
+	background-color:rgba(211,93,93,0.3);
 }
 section#mainvisual ul li:first-child {
 	margin-right:20px;
@@ -243,100 +267,64 @@ section#performance h2,
 section#service h2 {
 	width:960px;
 	margin:0 auto;
-	font-size:30px;
-	line-height:1em;
-	padding-bottom:20px;
-	border-bottom: solid 1px #000000;
-}
-section#performance dl,
-section#service dl {
-	width:960px;
-	margin:0 auto;
-	margin-bottom:60px;
-}
-section#performance dl dt,
-section#service dl dt {
-	width:770px;
-	min-height:150px;
-	padding:40px 0 40px 190px;
-	font-size:20px;
-	line-height:1.5em;
-	border-bottom: dashed 1px #000000;
-	background:url(images/background_q.png) no-repeat left;
-	vertical-align:middle;
-	font-weight:bold;
-}
-section#performance dl dt span,
-section#service dl dt span {
-	width:770px;
-	height:150px;
-	vertical-align:middle;
-	display:table-cell;
-}
-section#performance dl dd,
-section#service dl dd {
-	width:770px;
-	min-height:150px;
-	padding:40px 190px 40px 0;
-	font-size:18px;
-	line-height:1.6em;
-	border-bottom: solid 1px #000000;
-	background:url(images/background_a.png) no-repeat right;
-}
-section#performance dl dd span,
-section#service dl dd span {
-	width:770px;
-	height:150px;
-	display:table-cell;
-	vertical-align:middle;
+	font-size:40px;
+	line-height:84px;
+	padding-left:100px;
+	margin-bottom:20px;
+	background: url(images/background_h2_entry.png) no-repeat left 50%;
 }
 
-section#performance h3 {
-	width:960px;
-	margin:0 auto;
-	font-size:30px;
-	line-height:1em;
-	margin-bottom:40px;
+section#performance ul:after {
+	content: "";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
 }
-section#performance ul,
-div#price ul.price-genre {
+section#performance ul.reason {
 	width:960px;
 	margin:0 auto;
-	height:134px;
 	margin-bottom:80px;
 }
-section#performance ul:after,
-div#price ul.price-genre:after {
-	clear:both;
-}
-section#performance ul li,
-div#price ul.price-genre li {
-	width:168px;
-	height:134px;
+section#performance ul.reason li {
+	width:280px;
+	margin-right:60px;
 	list-style:none;
 	float:left;
-	margin-right:30px;
-	font-size:16px;
+	text-align:center;
+}
+section#performance ul.reason li h3 {
+	font-size:24px;
 	line-height:1em;
-	text-align:center;
+	margin-bottom:20px;
 }
-section#performance ul li img,
-div#price ul.price-genreli img {
-	margin-bottom:18px;
+section#performance ul.reason li img {
+	margin-bottom:30px;
 }
-section#performance ul li:last-child,
-div#price ul.price-genre li:last-child {
+section#performance ul.reason li p {
+	font-size:18px;
+	line-height:1.4em;
+	margin-bottom:30px;
+}
+section#performance ul.reason li a {
+	display:block;
+	width:280px;
+	height:70px;
+	background-position:0 0;
+}
+section#performance ul.reason li a:hover {
+	background-position:0 -70px;
+}
+section#performance ul.reason li a span {
+	display:none;
+}
+section#performance ul.reason li:last-child {
 	margin-right:0;
-}
-section#performance div {
-	width:100%;
-	text-align:center;
-	margin-bottom:76px;
 }
 
 section#service {
 	background-color:#f7f6f6;
-	padding:40px 0 240px 0;
+	padding:40px 0 75px 0;
 	margin-bottom:40px;
 }
 section#service:after {
@@ -346,7 +334,29 @@ section#service:after {
 	display: block;
 	visibility: hidden;
 }
-section#service ul {
+section#service h2 {
+	margin-bottom:80px;
+}
+section#service hr {
+	width:960px;
+	margin:0 auto;
+	border-style:dotted;
+	margin-bottom:40px;
+}
+section#service h3.pink {
+	width:910px;
+	margin:0 auto;
+	font-size:26px;
+	line-height:80px;
+	color:#d32626;
+	margin-bottom:20px;
+	border-radius: 10px;        /* 共通 */  
+	-webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+	-moz-border-radius: 10px;   /* Firefox用 */ 
+	padding-left:50px;
+	background: #fddcdc url(images/price_icon_h3.png) no-repeat 17px 50%;
+}
+/*section#service ul {
 	width:960px;
 	margin:0 auto;
 }
@@ -371,6 +381,53 @@ section#service ul li h3 {
 section#service ul li p {
 	font-size:14px;
 	line-height:1.7em;
+}*/
+section#service dl.genre,
+div#price dl.price-genre {
+	float:left;
+	width:225px;
+	height:134px;
+	margin:0 20px 40px 0;
+}
+section#service dl.last,
+div#price dl.last {
+	margin-right:0;
+}
+section#service dl.genre dt,
+div#price dl.price-genre dt {
+	width:225px;
+	height:134px;
+}
+section#service dl.genre dt img,
+div#price dl.price-genre dt img {
+	display:inline;
+}
+section#service dl.genre dd,
+div#price dl.price-genre dd {
+	margin:-134px 0 0 0;
+	width:225px;
+	height:134px;
+	text-align:center;
+}
+section#service dl.genre dd a,
+div#price dl.price-genre dd a {
+	margin-top:106px;
+	display:inline-block;
+	width:225px;
+	height:28px;
+	font-size:16px;
+	line-height:28px;
+	text-align:center;
+	color:#ffffff;
+	background-color:rgba(0,0,0,0.5);
+	overflow:hidden;
+}
+section#service dl.genre dd a:hover,
+div#price dl.price-genre dd a:hover {
+	margin:0;
+	padding:13px;
+	width:199px;
+	height:108px;
 }
 
 section#seisaku {
@@ -1032,7 +1089,20 @@ span.edit-link {
 div.center {
 	text-align:center;
 }
-
+.clearfix:after {
+	display: block;
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+	content: ".";
+}
+.center {
+	test-align:center;
+}
+div.wrapper {
+	width:960px;
+	margin:0 auto;
+}
 .mgrb40 {
 	margin-bottom:40px !important;
 }
