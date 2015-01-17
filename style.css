@@ -361,32 +361,6 @@ section#service h3.pink {
 	padding-left:50px;
 	background: #fddcdc url(images/price_icon_h3.png) no-repeat 17px 50%;
 }
-/*section#service ul {
-	width:960px;
-	margin:0 auto;
-}
-section#service ul li {
-	float:left;
-	list-style:none;
-	width:280px;
-	margin-right:60px;
-	text-align:center;
-}
-section#service ul li:last-child {
-	margin-right:0;
-}
-section#service ul li img {
-	margin-bottom:30px;
-}
-section#service ul li h3 {
-	font-size:20px;
-	line-height:1em;
-	margin-bottom:17px;
-}
-section#service ul li p {
-	font-size:14px;
-	line-height:1.7em;
-}*/
 section#service dl.genre,
 div#price dl.price-genre {
 	float:left;
@@ -431,8 +405,11 @@ section#service dl.genre dd a:hover,
 div#price dl.price-genre dd a:hover {
 	margin:0;
 	padding:13px;
-	width:199px;
-	height:108px;
+	width:191px;
+	height:100px;
+	background-color:rgba(255,255,255,0.8);
+	color:#333333;
+	border:4px solid rgba(249,80,101,0.9);
 }
 
 section#seisaku {
@@ -1118,7 +1095,7 @@ span.edit-link {
 p#pagetop {
 	text-align:right;
 }
-p#pagetop span {
+p#pagetop a#move-page-top {
 	width:140px;
 	display:inline-block;
 	font-size:12px;
@@ -1128,6 +1105,7 @@ p#pagetop span {
 	background-color:#d35d5d;
 	text-align:center;
 	color:#ffffff;
+	cursor: pointer;
 }
 
 /* 共通CSS */

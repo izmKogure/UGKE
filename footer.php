@@ -12,7 +12,7 @@
 
 	<footer role="contentinfo">
 		<div class="wrapper right">
-			<p id="pagetop"><a id="#move-page-top" href="#">▲&nbsp;ページトップへ</a></p>
+			<p id="pagetop"><a id="move-page-top">▲&nbsp;ページトップへ</a></p>
 		</div>
 		<div id="call">
 			<div class="wrapper">
@@ -55,6 +55,7 @@ jQuery(function(){
   jQuery(window).scroll(function(){
     //最上部から現在位置までの距離を取得して、変数[now]に格納
     var now = jQuery(window).scrollTop();
+    var pageHaight = jQuery(window).height();
     //最上部から現在位置までの距離(now)が600以上
     if(now > 600){
       //[#page-top]をゆっくりフェードインする

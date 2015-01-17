@@ -118,19 +118,19 @@ Template Name: content-page-price
 		<p class="mgrb40"><span>※消費者向けに商品の販売促進や会社のPＲ等を目的とする映像</span></p>
 		<h3 class="pink">社内向けの動画ジャンルまでカバー</h3>
 					<dl class="price-genre">
-						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_01.png" width="225" height="134" alt="CM"></dt>
+						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_09.png" width="225" height="134" alt="CM"></dt>
 						<dd><a href="">プレゼン<br>動画で戦略をより伝わりやすく、印象にのこる発表に</a></dd>
 					</dl>
 					<dl class="price-genre">
-						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_02.png" width="225" height="134" alt="CM"></dt>
+						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_10.png" width="225" height="134" alt="CM"></dt>
 						<dd><a href="">マニュアル<br>説明書では表現がむすかしい操作方法を動画で詳しく</a></dd>
 					</dl>
 					<dl class="price-genre">
-						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_03.png" width="225" height="134" alt="CM"></dt>
+						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_11.png" width="225" height="134" alt="CM"></dt>
 						<dd><a href="">教育研修<br>映像上映で効率的かつ、分かりやすい講座を実現</a></dd>
 					</dl>
 					<dl class="price-genre last">
-						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_04.png" width="225" height="134" alt="CM"></dt>
+						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_12.png" width="225" height="134" alt="CM"></dt>
 						<dd><a href="">記念行事<br>総会や式典、社員旅行まで行事ごとはしっかり映像で保管</a></dd>
 					</dl>
 				<div class="clearfix"></div>
