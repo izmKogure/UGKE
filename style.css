@@ -181,15 +181,14 @@ body.home div#content {
 #video-background {
 	display:block;
 	width: 100%; 
-	height: auto;
+	height: 480px;
 	min-width:960px;
-	min-height:720px;
 	z-index: -100;
 }
 div#mainvideo {
 	width:100%;
 	margin: 0 auto;
-	height:720px;
+	height:480px;
 	overflow:hidden;
 	position:absolute;
 	top:0;
@@ -197,7 +196,7 @@ div#mainvideo {
 }
 div#mainvideo video {
 	width:100%;
-	min-width:1790px;
+	min-width:1160px;
 	height:auto;
 }
 section#mainvisual {
@@ -205,7 +204,7 @@ section#mainvisual {
 	width:960px;
 	margin:0 auto 40px auto;
 	color:#ffffff;
-	height:640px;
+	height:400px;
 	vertical-align:middle;
 }
 section#mainvisual div {
@@ -251,7 +250,7 @@ section#mainvisual ul li a {
 	color:#ffffff;
 }
 section#mainvisual ul li a:hover {
-	background-color:rgba(211,93,93,0.3);
+	background-color:rgba(211,93,93,0.5);
 }
 section#mainvisual ul li:first-child {
 	margin-right:20px;
@@ -452,6 +451,7 @@ section#seisaku div.zisseki {
 section#seisaku h2 {
 	font-size:30px;
 	line-height:1em;
+	margin-bottom:20px;
 }
 section#seisaku p {
 	font-size:16px;
@@ -1012,22 +1012,43 @@ footer div#call {
 	color:#ffffff;
 }
 footer div#call div.wrapper {
-	height:60px;
-	padding:20px 60px 20px 60px;
-	font-size:40px;
-	line-height:60px;
+	height:58px;
+	padding:16px 0;
 	vertical-align:middle;
-	background:url(images/icon_footerlogo.png) no-repeat right;
+}
+footer div#call div.wrapper ul li {
+	display:table-cell;
+	list-style:none;
+	font-size:14px;
+	line-height:1.2em;
+	height:58px;
+	vertical-align:middle;
+}
+footer div#call div.wrapper ul li a,
+footer div#call span img {
+	vertical-align:middle;
+}
+footer div#call div.wrapper ul li:last-child {
+	float:right;
+	margin-top:-40px;
+}
+footer div#call div.wrapper ul:after {
+	content: "";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
 }
 footer div#call img {
-	float:left;
-	margin-right:33px;
+	margin-right:10px;
 }
 footer div#call span {
-	font-size:14px;
-	line-height:60px;
-	margin-left:20px;
-	vertical-align:middle;
+	font-size:40px;
+	line-height:1em;
+	margin-top:4px;
+}
+footer div#call span img {
+	vertical-align:top;
 }
 footer div#serviceinfo {
 	height:100px;
@@ -1104,6 +1125,11 @@ div.wrapper {
 	width:960px;
 	margin:0 auto;
 }
+.mgr0 {
+	margin:0 !important;
+}
+.mgrr10 {
+	margin-right:10px !important;
 .mgrb40 {
 	margin-bottom:40px !important;
 }

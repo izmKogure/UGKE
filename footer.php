@@ -13,7 +13,11 @@
 	<footer role="contentinfo">
 		<div id="call">
 			<div class="wrapper">
-				<a href="お問合せ"><img src="<?php bloginfo('template_directory');?>/images/button_shitumon.png" width="320" height="60" alt="ご質問・ご依頼はこちら"></a>0120-666-6666<span>受付時間 ／ 平日10:00〜21:00</span>
+				<ul>
+					<li><a href="お問合せ"><img src="<?php bloginfo('template_directory');?>/images/button_shitumon.png" width="320" height="60" alt="ご質問・ご依頼はこちら"></a></li>
+					<li>お電話でもお気軽にお問合せください<br><span><img src="<?php bloginfo('template_directory');?>/images/footer_icon_call.png" width="40" height="40"><span class="mgrr10">03-6416-3240</span></li>
+					<li>受付時間 ／ 平日10:00〜20:00</li>
+				</ul>
 			</div>
 		</div>
 		<div id="serviceinfo">
@@ -23,12 +27,10 @@
 						<img src="<?php bloginfo('template_directory');?>/images/logo_1c.png" width="286" height="60" alt="動画制作をトータルサポート　UGOKIE">
 					</dt>
 					<dd>
-						〒00−0000 東京都世田谷区野沢2-24-9　コートNOZAWA1-04<br>TEL / 0120-000-0000  FAX / 0120-000-0000
+						東京都渋谷区道玄坂2-15-1 ノア道玄坂6F<br>TEL / 03-6416-3240  FAX / 0120-000-0000
 						<ul>
 							<li><img src="<?php bloginfo('template_directory');?>/images/button_youtube.png" width="40" height="40" alt="Youtube"></li>
-							<li><img src="<?php bloginfo('template_directory');?>/images/button_twitter.png" width="40" height="40" alt="twitter"></li>
 							<li><img src="<?php bloginfo('template_directory');?>/images/button_facebook.png" width="40" height="40" alt="Facebook"></li>
-							<li><img src="<?php bloginfo('template_directory');?>/images/button_google.png" width="40" height="40" alt="Google+"></li>
 						</ul>
 					</dd>
 			</div>
