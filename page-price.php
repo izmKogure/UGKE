@@ -50,7 +50,7 @@ Template Name: content-page-price
 	<img src="<?php bloginfo('template_directory');?>/images/price_ill_01.png" width="960" height="675" class="price-ill">
 	<ul class="kome">
 		<li>シンプルプラン・スタンダードプランは、お客様に事前にご記入頂くシナリオボードに沿って動画制作を進めます。</li>
-		<li>スタンダードプラン・ディレクターズプランでの動画撮影やナレーション収録は、お客様の立ち会いを必須と致しますが、<br>再収録の対応ができかねる事をご理解頂ける場合に限り、立ち会いは必須ではございません。</li>
+		<li>スタンダードプラン・ディレクターズプランでの動画撮影は、お客様の立ち会いを必須と致しますが、<br>再収録の対応ができかねる事をご理解頂ける場合に限り、立ち会いは必須ではございません。</li>
 		<li>オリジナルプランはフルオーダーメイドまで対応可能なため、特別な制限はありません。</li>
 	</ul>
 </div>
@@ -98,38 +98,40 @@ Template Name: content-page-price
 				</div>
 				</ul>
 				<div class="wrapper" >
-					<dl class="price-genre">
+					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_05.png" width="225" height="134" alt="CM"></dt>
 						<dd><a href="">営業ツール<br>タブレット上で動画をみせてより直感的に</a></dd>
 					</dl>
-					<dl class="price-genre">
+					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_06.png" width="225" height="134" alt="CM"></dt>
 						<dd><a href="">セミナー<br>会場で上映する映像や、ネット上で配信するEラーニングまで</a></dd>
 					</dl>
-					<dl class="price-genre">
+					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_07.png" width="225" height="134" alt="CM"></dt>
 						<dd><a href="">会社紹介<br>沿革映像や業務紹介ビデオで信用と理解を高める</a></dd>
 					</dl>
-					<dl class="price-genre last">
+					<dl class="price-genre mgrb20 last">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_08.png" width="225" height="134" alt="CM"></dt>
 						<dd><a href="">施設・店舗紹介<br>歴史的建造物や大型娯楽施設のフロア案内まで</a></dd>
 					</dl>
 				<div class="clearfix"></div>
-		<p class="mgrb40"><span>※消費者向けに商品の販売促進や会社のPＲ等を目的とする映像</span></p>
-		<h3 class="pink">社内向けの動画ジャンルまでカバー</h3>
-					<dl class="price-genre">
+				<p class="mgrb40"><span>※消費者向けに商品の販売促進や会社のPＲ等を目的とする映像</span></p>
+				</div>
+				<div class="wrapper" >
+				<h3 class="pink">社内向けの動画ジャンルまでカバー</h3>
+					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_09.png" width="225" height="134" alt="CM"></dt>
 						<dd><a href="">プレゼン<br>動画で戦略をより伝わりやすく、印象にのこる発表に</a></dd>
 					</dl>
-					<dl class="price-genre">
+					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_10.png" width="225" height="134" alt="CM"></dt>
 						<dd><a href="">マニュアル<br>説明書では表現がむすかしい操作方法を動画で詳しく</a></dd>
 					</dl>
-					<dl class="price-genre">
+					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_11.png" width="225" height="134" alt="CM"></dt>
 						<dd><a href="">教育研修<br>映像上映で効率的かつ、分かりやすい講座を実現</a></dd>
 					</dl>
-					<dl class="price-genre last">
+					<dl class="price-genre mgrb20 last">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_12.png" width="225" height="134" alt="CM"></dt>
 						<dd><a href="">記念行事<br>総会や式典、社員旅行まで行事ごとはしっかり映像で保管</a></dd>
 					</dl>
