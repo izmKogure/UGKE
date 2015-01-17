@@ -1119,6 +1119,10 @@ footer div.footer-top {
 footer div.footer-top.static {
      position:static;
      }
+footer.entry-footer {
+	display:none;
+}
+
 /* 共通CSS */
 div.center {
 	text-align:center;
