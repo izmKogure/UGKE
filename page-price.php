@@ -67,6 +67,13 @@ Template Name: content-page-price
 			<li>スタンダードプラン</li>
 			<li>ディレクターズプラン</li>
 		</ul>
+<?php echo do_shortcode('
+[su_tabs]
+  [su_tab title="シンプルプラン"]<div class="tab1"></div>[/su_tab]
+  [su_tab title="スタンダードプラン"] Tab 2 content [/su_tab]
+  [su_tab title="ディレクターズプラン"] Tab 3 content [/su_tab]
+[/su_tabs]
+'); ?>
 <img src="<?php bloginfo('template_directory');?>/images/price_ill_tag01.png" width="960" height="620">
 </div>
 </section>

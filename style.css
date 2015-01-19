@@ -1316,3 +1316,12 @@ div.wrapper {
 .mgrb70 {
 	margin-bottom:70px !important;
 }
+
+.su-tabs {
+	margin:0 !important;
+	padding:0 !important;
+}
+.tab1 {
+	background-image:url(images/price_ill_tag01.png);
+	height:620px;
+}
