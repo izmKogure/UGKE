@@ -18,7 +18,7 @@
 			<div id="call">
 				<div class="wrapper">
 					<ul>
-						<li><a href="お問合せ"><img src="<?php bloginfo('template_directory');?>/images/button_shitumon.png" width="320" height="60" alt="ご質問・ご依頼はこちら"></a></li>
+						<li><a href="お問合せ"><img src="<?php bloginfo('template_directory');?>/images/button_shitumon.png" width="320" height="60" alt="ご質問・ご依頼はこちら" class="mgrr20"></a></li>
 						<li>お電話でもお気軽にお問合せください<br><span><img src="<?php bloginfo('template_directory');?>/images/footer_icon_call.png" width="40" height="40"><span class="mgrr10">03-6416-3240</span></li>
 						<li>受付時間 ／ 平日10:00〜20:00</li>
 					</ul>

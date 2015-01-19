@@ -25,15 +25,14 @@ Template Name: content-page-price
 	<h2 class="price1">UGOKIEのサービスとは？</h2>
 	<p>UGOKIEは、映像の制作からアフターフォロー(映像の再活用)までをトータルサポートする動画制作サービスです。“ただ作って終わり”ではなく、一度配信した動画の新たな使い道提案や、再編集まで徹底サポート致します。</p>
 	<hr>
-	<table>
+	<table class="price-top">
 		<tr>
 			<td>
-				<img src="<?php bloginfo('template_directory');?>/images/price_01.png" width="441" height="430" class="left-image">
+				<img src="<?php bloginfo('template_directory');?>/images/price_01.png" width="444" height="432" class="left-image">
 			</td>
 			<td class="text">
-				<h3>アフターフォローが<br>他社にはない最大の魅力</h3>
-				<p>私たちは様々な配信媒体を分析し、配信時により視聴者に響く映像制作を心がけています。“ただ作るだけでは終わらない”を意識して制作したUGOKIEの動画事例を是非ご覧ください。</p>
-				<div class="center"><img src="<?php bloginfo('template_directory');?>/images/price_moreafter.png" width="290" height="80"></div>
+				<p>UGOKIEは、映像プランの提案から動画やナレーションの収録、映像編集、納品まで全てを私たちが一元管理して実制作を進めます。そして更に、納品後のアフターフォローまで発展させた動画制作サービスが、UGOKIEのトータルサポートです。</p>
+				<div class="center"><img src="<?php bloginfo('template_directory');?>/images/price_moreafter.png" width="474" height="80"></div>
 			</td>
 		</tr>
 	</table>
@@ -80,19 +79,19 @@ Template Name: content-page-price
 		<div class="wrapper" >
 					<dl class="price-genre">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_01.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">CM<br>WebCMから店頭用ムービー、YouTube動画広告まで</a></dd>
+						<dd><a><span>CM</span><br>WebCMから店頭用ムービー、YouTube動画広告まで</a></dd>
 					</dl>
 					<dl class="price-genre">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_02.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">アプリ紹介<br>アプリのプロモーションから操作説明まで</a></dd>
+						<dd><a><span>アプリ紹介</span><br>アプリのプロモーションから操作説明まで</a></dd>
 					</dl>
 					<dl class="price-genre">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_03.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">展示会・イベント<br>ブースの演出映像や商品説明で集客アップ</a></dd>
+						<dd><a><span>展示会・イベント</span><br>ブースの演出映像や商品説明で集客アップ</a></dd>
 					</dl>
 					<dl class="price-genre last">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_04.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">採用<br>新卒や中途採用向け動画で企業イメージをアップ</a></dd>
+						<dd><a><span>採用</span><br>新卒や中途採用向け動画で企業イメージをアップ</a></dd>
 					</dl>
 				<div class="clearfix"></div>
 				</div>
@@ -100,19 +99,19 @@ Template Name: content-page-price
 				<div class="wrapper" >
 					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_05.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">営業ツール<br>タブレット上で動画をみせてより直感的に</a></dd>
+						<dd><a><span>営業ツール</span><br>タブレット上で動画をみせてより直感的に</a></dd>
 					</dl>
 					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_06.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">セミナー<br>会場で上映する映像や、ネット上で配信するEラーニングまで</a></dd>
+						<dd><a><span>セミナー</span><br>会場で上映する映像や、ネット上で配信するEラーニングまで</a></dd>
 					</dl>
 					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_07.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">会社紹介<br>沿革映像や業務紹介ビデオで信用と理解を高める</a></dd>
+						<dd><a><span>会社紹介</span><br>沿革映像や業務紹介ビデオで信用と理解を高める</a></dd>
 					</dl>
 					<dl class="price-genre mgrb20 last">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_08.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">施設・店舗紹介<br>歴史的建造物や大型娯楽施設のフロア案内まで</a></dd>
+						<dd><a><span>施設・店舗紹介</span><br>歴史的建造物や大型娯楽施設のフロア案内まで</a></dd>
 					</dl>
 				<div class="clearfix"></div>
 				<p class="mgrb40"><span>※消費者向けに商品の販売促進や会社のPＲ等を目的とする映像</span></p>
@@ -121,19 +120,19 @@ Template Name: content-page-price
 				<h3 class="pink">社内向けの動画ジャンルまでカバー</h3>
 					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_09.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">プレゼン<br>動画で戦略をより伝わりやすく、印象にのこる発表に</a></dd>
+						<dd><a><span>プレゼン</span><br>動画で戦略をより伝わりやすく、印象にのこる発表に</a></dd>
 					</dl>
 					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_10.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">マニュアル<br>説明書では表現がむすかしい操作方法を動画で詳しく</a></dd>
+						<dd><a><span>マニュアル</span><br>説明書では表現がむすかしい操作方法を動画で詳しく</a></dd>
 					</dl>
 					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_11.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">教育研修<br>映像上映で効率的かつ、分かりやすい講座を実現</a></dd>
+						<dd><a><span>教育研修</span><br>映像上映で効率的かつ、分かりやすい講座を実現</a></dd>
 					</dl>
 					<dl class="price-genre mgrb20 last">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_12.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">記念行事<br>総会や式典、社員旅行まで行事ごとはしっかり映像で保管</a></dd>
+						<dd><a><span>記念行事</span><br>総会や式典、社員旅行まで行事ごとはしっかり映像で保管</a></dd>
 					</dl>
 				<div class="clearfix"></div>
 				</div>

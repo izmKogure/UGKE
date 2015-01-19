@@ -63,19 +63,19 @@ get_header(); ?>
 				<div class="wrapper" >
 					<dl class="genre">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_01.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">CM<br>WebCMから店頭用ムービー、YouTube動画広告まで</a></dd>
+						<dd><a><span>CM</span><br>WebCMから店頭用ムービー、YouTube動画広告まで</a></dd>
 					</dl>
 					<dl class="genre">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_02.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">アプリ紹介<br>アプリのプロモーションから操作説明まで</a></dd>
+						<dd><a><span>アプリ紹介</span><br>アプリのプロモーションから操作説明まで</a></dd>
 					</dl>
 					<dl class="genre">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_03.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">展示会・イベント<br>ブースの演出映像や商品説明で集客アップ</a></dd>
+						<dd><a><span>展示会・イベント</span><br>ブースの演出映像や商品説明で集客アップ</a></dd>
 					</dl>
 					<dl class="genre last">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_04.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">採用<br>新卒や中途採用向け動画で企業イメージをアップ</a></dd>
+						<dd><a><span>採用</span><br>新卒や中途採用向け動画で企業イメージをアップ</a></dd>
 					</dl>
 				<div class="clearfix"></div>
 				</div>
@@ -84,19 +84,19 @@ get_header(); ?>
 				<div class="wrapper" >
 					<dl class="genre">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_05.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">営業ツール<br>タブレット上で動画をみせてより直感的に</a></dd>
+						<dd><a><span>営業ツール</span><br>タブレット上で動画をみせてより直感的に</a></dd>
 					</dl>
 					<dl class="genre">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_06.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">セミナー<br>会場で上映する映像や、ネット上で配信するEラーニングまで</a></dd>
+						<dd><a><span>セミナー</span><br>会場で上映する映像や、ネット上で配信するEラーニングまで</a></dd>
 					</dl>
 					<dl class="genre">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_07.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">会社紹介<br>沿革映像や業務紹介ビデオで信用と理解を高める</a></dd>
+						<dd><a><span>会社紹介</span><br>沿革映像や業務紹介ビデオで信用と理解を高める</a></dd>
 					</dl>
 					<dl class="genre last">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_08.png" width="225" height="134" alt="CM"></dt>
-						<dd><a href="">施設・店舗紹介<br>歴史的建造物や大型娯楽施設のフロア案内まで</a></dd>
+						<dd><a><span>施設・店舗紹介</span><br>歴史的建造物や大型娯楽施設のフロア案内まで</a></dd>
 					</dl>
 				<div class="clearfix"></div>
 				<div class="center">
