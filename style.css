@@ -683,7 +683,7 @@ h1.performance-title {
 	line-height:1em;
 	text-align: center;
 	color:#ffffff;
-	background-image:url(images/performanceheadbg.jpg);
+	background-image:url(images/entryheadbg.jpg);
 	background-repeat:norepeat;
 	background-position:50% 50%;
 	background-size:cover;
@@ -1449,5 +1449,33 @@ div.wrapper {
 .su-tabs-nav span:last-child {
 	border-right:none !important;
 }
-
 /* 料金特徴のタブ */
+
+/* SNSボタン */
+div#sns_button img {
+	width:auto;
+	height:auto;
+	margin:0;
+	vertical-align:middle;
+	font-size:0;
+	line-height:0;
+}
+div#sns_button span.sns_count {
+	display:inline-block;
+	min-width:15px;
+	padding:0 20px 0 50px;
+	font-size:16px;
+	line-height:30px;
+	color:#ffffff;
+	background:no-repeat left 0;
+	margin-bottom:24px;
+}
+div#sns_button span.facebook {
+	background-image:url(images/sns_button_facebook.png);
+	background-color:#4c90dc;
+	margin-right:20px;
+}
+div#sns_button span.twitter {
+	background-image:url(images/sns_button_twitter.png);
+	background-color:#80caf1;
+}

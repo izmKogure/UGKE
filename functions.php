@@ -227,3 +227,81 @@ function get_mytheme_url() {
     return get_template_directory_uri();
 }
 wpcf7_add_shortcode('show_mytheme_url', 'get_mytheme_url', true);
+
+
+////////////////////////////////////
+//ソーシャルカウント数取得関数まとめ
+////////////////////////////////////
+//なるべく他のプラグインと関数名がかぶらないようにするために
+//なるべくかぶらなそうな関数名にしてあります。
+//参考：http://syncer.jp/how-to-get-sns-count
+
+//ツイート数の取得
+function get_twitter_tweet_count($url){
+  //JSONデータを取得
+  $json = @file_get_contents('http://urls.api.twitter.com/1/urls/count.json?url='.rawurlencode($url));
+  //JSONデータを連想配列に直す
+  $array = json_decode($json,true);
+  //データが存在しない場合は0扱いにする
+  if(!isset($array['count'])){
+    $count = 0;
+  }else{
+    $count = $array['count'];
+  }
+  //カウントを出力
+  return $count;
+}
+
+//いいね！数の取得
+function get_facebook_like_count($url){
+  //JSONデータを取得
+  $json = @file_get_contents('http://graph.facebook.com/?id='.rawurlencode($url));
+  //JSONデータを連想配列に直す
+  $array = json_decode($json,true);
+  //データが存在しない場合は0扱いにする
+  if(!isset($array['shares'])){
+    $count = 0;
+  }else{
+    $count = $array['shares'];
+  }
+  //カウントを出力
+  return $count;
+}
+
+//Google+1の取得
+function get_google_plus_one_count($url){
+  //GETリクエストでURLを指定する場合
+  if(isset($_GET['url'])) $url = $_GET['url'];
+  //CURLを利用してJSONデータを取得
+  $ch = curl_init();
+  curl_setopt( $ch, CURLOPT_URL, "https://clients6.google.com/rpc?key=AIzaSyCKSbrvQasunBoV16zDH9R33D88CeLr9gQ" );
+  curl_setopt( $ch, CURLOPT_POST, 1 );
+  curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, false );
+  curl_setopt( $ch, CURLOPT_POSTFIELDS, '[{"method":"pos.plusones.get","id":"p","params":{"nolog":true,"id":"' . $url . '","source":"widget","userId":"@viewer","groupId":"@self"},"jsonrpc":"2.0","key":"p","apiVersion":"v1"}]' );
+  curl_setopt( $ch, CURLOPT_RETURNTRANSFER, true );
+  curl_setopt( $ch, CURLOPT_HTTPHEADER, array( 'Content-type: application/json' ) );
+  $result = curl_exec( $ch );
+  curl_close( $ch );
+  //JSONデータからカウント数を取得
+  $obj = json_decode( $result, true );
+  //カウントが0の場合
+  if(!isset($obj[0]['result']['metadata']['globalCounts']['count'])){
+    $count = 0;
+  }else{
+    $count = $obj[0]['result']['metadata']['globalCounts']['count'];
+  }
+  //カウントを出力
+  return $count;
+}
+
+//はてブ数の取得
+function get_hatena_hatebu_count($url){
+  //はてブ数を取得
+  $count = @file_get_contents('http://api.b.st-hatena.com/entry.count?url='.rawurlencode($url));
+  //カウントが0の場合
+  if(!isset($count) || !$count){
+    $count = 0;
+  }
+  //カウントを出力
+  return $count;
+}
