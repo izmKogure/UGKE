@@ -100,7 +100,7 @@ get_header(); ?>
 					</dl>
 				<div class="clearfix"></div>
 				<div class="center">
-					<img src="<?php bloginfo('template_directory');?>/images/button_moregenre.gif" width="288" height="78" alt="もっとジャンルを見る">
+					<a href="料金特徴" class="more-genre"><span>もっとジャンルを見る</span></a>
 				</div>
 				</div>
 			</section>
@@ -113,7 +113,7 @@ get_header(); ?>
 				<div class="zisseki">
 					<h2>制作実績</h2>
 					<p>UGOIEが手がけた映像制作事例です。<br>様々な案件に合せて、よりユーザーへリーチする映像制作を心がけています。<br>ただ作るだけでは終わらない、UGOKIEの映像制作をご覧ください。</p>
-					<img src="<?php bloginfo('template_directory');?>/images/button_zisseki.gif" width="230" height="40" alt="制作実績をもっと見る">
+					<a href="制作実績" class="seisaku-zisseki"><span>制作実績をもっと見る</span></a>
 				</div>
 				</div>
 			</section>

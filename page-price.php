@@ -31,8 +31,8 @@ Template Name: content-page-price
 				<img src="<?php bloginfo('template_directory');?>/images/price_01.png" width="444" height="432" class="left-image">
 			</td>
 			<td class="text">
-				<p>UGOKIEは、映像プランの提案から動画やナレーションの収録、映像編集、納品まで全てを私たちが一元管理して実制作を進めます。そして更に、納品後のアフターフォローまで発展させた動画制作サービスが、UGOKIEのトータルサポートです。</p>
-				<div class="center"><img src="<?php bloginfo('template_directory');?>/images/price_moreafter.png" width="474" height="80"></div>
+				<p class="mgrb20">UGOKIEは、映像プランの提案から動画やナレーションの収録、映像編集、納品まで全てを私たちが一元管理して実制作を進めます。そして更に、納品後のアフターフォローまで発展させた動画制作サービスが、UGOKIEのトータルサポートです。</p>
+				<div class="center"><a class="afterfollow_button" href="アフターフォロー"><span>アフターフォローを見る</span></a></div>
 			</td>
 		</tr>
 	</table>
@@ -62,19 +62,13 @@ Template Name: content-page-price
 		<p class="mgrb60">クラウドソーシング等でありがちな「納期になっても提案がない…」「こちらの要望とかけ離れている…」というような苦労とは無縁です。</p>
 		<div class="center"><img src="<?php bloginfo('template_directory');?>/images/price_button_01.png" width="358" height="30" alt="シナリオボードをダウンロードする"></div>
 		<hr>
-		<ul class="tag">
-			<li>シンプルプラン</li>
-			<li>スタンダードプラン</li>
-			<li>ディレクターズプラン</li>
-		</ul>
 <?php echo do_shortcode('
 [su_tabs]
   [su_tab title="シンプルプラン"]<div class="tab1"></div>[/su_tab]
-  [su_tab title="スタンダードプラン"] Tab 2 content [/su_tab]
-  [su_tab title="ディレクターズプラン"] Tab 3 content [/su_tab]
+  [su_tab title="スタンダードプラン"]<div class="tab2"></div>[/su_tab]
+  [su_tab title="ディレクターズプラン"]<div class="tab3"></div>[/su_tab]
 [/su_tabs]
 '); ?>
-<img src="<?php bloginfo('template_directory');?>/images/price_ill_tag01.png" width="960" height="620">
 </div>
 </section>
 

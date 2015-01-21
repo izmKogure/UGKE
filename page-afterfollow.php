@@ -56,7 +56,7 @@ Template Name: content-page-after-follow
 	<section class="gray">
 		<div class="wrapper">
 			<h2 class="mgrb70">先着５０社様限定、オープンキャンペーン！</h2>
-			<p>UGOKIEサービスの公開を記念して、ご納品後１年間テキスト差替えと写真・動画差替えを無料で対応させて頂きます！<br><a href="お問合せ">詳細はお問合せください</a></p>
+			<p class="campaing">UGOKIEサービスの公開を記念して、ご納品後１年間テキスト差替えと写真・動画差替えを無料で対応させて頂きます！<br><a href="お問合せ">詳細はお問合せください</a></p>
 		</div>
 	</section>
 </div>
