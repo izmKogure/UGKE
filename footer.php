@@ -19,8 +19,7 @@
 				<div class="wrapper">
 					<ul>
 						<li><a href="お問合せ" class="otoiawase"><span>ご質問・ご依頼はこちら</span></a></li>
-						<li>お電話でもお気軽にお問合せください<br><span><img src="<?php bloginfo('template_directory');?>/images/footer_icon_call.png" width="40" height="40"><span class="mgrr10">03-6416-3240</span></li>
-						<li>受付時間 ／ 平日10:00〜20:00</li>
+						<li><img src="<?php bloginfo('template_directory');?>/images/otoiawase_footer_03.png" width="640" height="60" alt="動画制作をトータルサポート　UGOKIE"></li>
 					</ul>
 				</div>
 			</div>
@@ -30,13 +29,13 @@
 				<div class="wrapper">
 					<dl>
 						<dt>
-							<img src="<?php bloginfo('template_directory');?>/images/logo_1c.png" width="286" height="60" alt="動画制作をトータルサポート　UGOKIE">
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory');?>/images/logo_1c.png" width="286" height="60" alt="動画制作をトータルサポート　UGOKIE"></a>
 						</dt>
 						<dd>
-							東京都渋谷区道玄坂2-15-1 ノア道玄坂6F<br>TEL / 03-6416-3240  FAX / 0120-000-0000
+							東京都渋谷区道玄坂2-15-1 ノア道玄坂6F<br>TEL / 03-6416-3240
 							<ul>
 								<li><a class="youtube" href="http://www.youtube.com" target="_blank"><span>YouTube</span></a></li>
-								<li><a class="facebook" href="http://www.facebook.com/" target="_blank"><span>Facebook</span></a></li>
+								<li><a class="facebook" href="https://www.facebook.com/ugokie" target="_blank"><span>Facebook</span></a></li>
 							</ul>
 						</dd>
 				</div>

@@ -271,7 +271,7 @@ section#news {
 }
 section#performance h2,
 section#service h2 {
-	width:960px;
+	width:860px;
 	margin:0 auto;
 	font-size:40px;
 	line-height:84px;
@@ -279,7 +279,14 @@ section#service h2 {
 	margin-bottom:20px;
 	background: url(images/background_h2_entry.png) no-repeat left 50%;
 }
-
+section#performance h2 {
+	margin-bottom:60px;
+}
+section#performance hr {
+	border-style:dotted;
+	width:960px;
+	margin:0 auto 60px auto;
+}
 section#performance ul:after {
 	content: "";
 	clear: both;
@@ -341,7 +348,7 @@ section#service:after {
 	visibility: hidden;
 }
 section#service h2 {
-	margin-bottom:80px;
+	margin-bottom:40px;
 }
 section#service hr {
 	width:960px;
@@ -594,6 +601,7 @@ div.entry-content {
 div.entry-content h2,
 div#form h2,
 div.after-follow h2 {
+	width:860px;
 	font-size:40px;
 	line-height:84px;
 	padding-left:100px;
@@ -1010,6 +1018,10 @@ div#form table#form td.formtext {
 /* お問合せ */
 
 /* アフターフォロー */
+div.after-follow h2.after2 {
+	background-image:url(images/background_h2_entry_after.png);
+	padding-left:151px;
+}
 div.after-follow hr {
 	border-style:dotted;
 }
@@ -1181,29 +1193,21 @@ footer div.wrapper {
 	margin:0 auto;
 }
 footer div#call {
+	height:100px;
 	background-color:#d35d5d;
 	color:#ffffff;
 }
 footer div#call div.wrapper {
-	height:58px;
-	padding:16px 0;
-	vertical-align:middle;
+	height:100px;
 }
 footer div#call div.wrapper ul li {
 	display:table-cell;
 	list-style:none;
-	font-size:14px;
-	line-height:1.2em;
-	height:58px;
+	height:100px;
 	vertical-align:middle;
 }
-footer div#call div.wrapper ul li a,
 footer div#call span img {
 	vertical-align:middle;
-}
-footer div#call div.wrapper ul li:last-child {
-	float:right;
-	margin-top:-40px;
 }
 footer div#call div.wrapper ul:after {
 	content: "";
@@ -1227,14 +1231,6 @@ footer div#call div.wrapper ul li a.otoiawase span {
 }
 footer div#call img {
 	margin-right:10px;
-}
-footer div#call span {
-	font-size:40px;
-	line-height:1em;
-	margin-top:4px;
-}
-footer div#call span img {
-	vertical-align:top;
 }
 footer div#serviceinfo {
 	height:100px;
@@ -1260,7 +1256,7 @@ footer div#serviceinfo dd:after {
 	visibility: hidden;
 }
 footer div#serviceinfo ul {
-	margin-top:25px;
+	margin-top:15px;
 }
 footer div#serviceinfo li {
 	float:left;
@@ -1345,7 +1341,7 @@ footer div.footer-top {
      left:0;
      overflow:hidden;
      width:100%;
-     height:114px;
+     height:124px;
      }
 
 footer div.footer-top.static {

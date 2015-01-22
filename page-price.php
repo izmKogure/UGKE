@@ -39,7 +39,7 @@ Template Name: content-page-price
 </div>
 </section>
 
-<section class="gray">
+<section class="gray" id="4price">
 	<div class="pricewrapper">
 		<h2 class="price2">料金プラン</h2>
 		<h3 class="pink">初めて動画に取組む企業でも導入しやすい価格を実現</h3>
@@ -55,7 +55,7 @@ Template Name: content-page-price
 </div>
 </section>
 
-<section>
+<section id="seisakuflow">
 	<div class="pricewrapper">
 		<h2 class="price3">制作フロー</h2>
 		<h3 class="pink">UGOKIEが一貫してクオリティ管理を実施</h3>
@@ -72,7 +72,7 @@ Template Name: content-page-price
 </div>
 </section>
 
-<section class="gray">
+<section class="gray" id="genre">
 	<div class="pricewrapper">
 		<h2 class="price4">幅広い動画に対応し、社内向けも強化</h2>
 		<p>ひとことで“動画”といっても、目的に応じた様々な動画ジャンルがあります。<br>UGOKIEは、WebCMからアプリ紹介ムービー、更に社内向けビデオにも力を入れ、お客様の求める最適な動画活用を実現致します。</p>

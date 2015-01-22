@@ -22,25 +22,25 @@ Template Name: content-page-after-follow
 <div class="after-follow">
 	<section>
 	<div class="wrapper">
-		<h2 class="mgrb60">アフターフォローで動画をフル活用</h2>
+		<h2 class="mgrb60 after2">アフターフォローで動画をフル活用</h2>
 		<p class="mgrb40">ただ作るだけの動画制作時代は終っています。一度作った動画は徹底的に活用してこそ意味があり、UGOKIEでは新たな動画制作時代に応えるため、確実に効果を上げる事がでるアフターフォローを提供致します。</p>
 		<hr>
 		<h3 class="pink">UGOKIEでは新たな配信先まで徹底サポート致します</h3>
 			<dl class="genre">
 				<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_13.png" width="225" height="134" alt="CM"></dt>
-				<dd><a><span>プレゼン</span><br>動画で戦略をより伝わりやすく、印象にのこる発表に</a></dd>
+				<dd><a><span>DVD制作</span><br>ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
 			</dl>
 			<dl class="genre">
 				<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_14.png" width="225" height="134" alt="CM"></dt>
-				<dd><a><span>マニュアル</span><br>説明書では表現がむすかしい操作方法を動画で詳しく</a></dd>
+				<dd><a><span>TrueVies広告</span><br>ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
 			</dl>
 			<dl class="genre">
 				<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_15.png" width="225" height="134" alt="CM"></dt>
-				<dd><a><span>教育研修</span><br>映像上映で効率的かつ、分かりやすい講座を実現</a></dd>
+				<dd><a><span>動画メルマガ</span><br>ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
 			</dl>
 			<dl class="genre last">
 				<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_16.png" width="225" height="134" alt="CM"></dt>
-				<dd><a><span>記念行事</span><br>総会や式典、社員旅行まで行事ごとはしっかり映像で保管</a></dd>
+				<dd><a><span>サイネージ</span><br>ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
 			</dl>
 			<div class="clearfix"></div>
 			<ul>

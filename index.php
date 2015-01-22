@@ -26,7 +26,7 @@ get_header(); ?>
 				<h2>作るだけの動画制作はもう古い</h2>
 				<p>動画活用のお悩みはUGOKIE（ウゴキエ）で解決！</p>
 				<ul>
-					<li><a href="料金特徴">4つの料金プラン</a></li>
+					<li><a href="料金特徴#4price">4つの料金プラン</a></li>
 					<li><a href="アフターフォロー">アフターフォロー</a></li>
 				</ul>
 				</div>
@@ -34,18 +34,19 @@ get_header(); ?>
 
 			<section id="performance">
 				<h2>UGOKIEが選ばれる理由</h2>
+				<hr>
 				<ul class="reason">
 					<li>
 						<img src="<?php bloginfo('template_directory');?>/images/top_ill_01.png" width="280" height="213" alt="CM">
 						<h3>明解な料金プラン</h3>
 						<p>追加の制作料金は<br>一切頂きません。</p>
-						<a href="#" style="background-image:url(<?php bloginfo('template_directory');?>/images/button_top_01.png);"><span>料金プランを見る</span></a>
+						<a href="料金特徴#4price" style="background-image:url(<?php bloginfo('template_directory');?>/images/button_top_01.png);"><span>料金プランを見る</span></a>
 					</li>
 					<li>
 						<img src="<?php bloginfo('template_directory');?>/images/top_ill_02.png" width="280" height="213" alt="CM">
 						<h3>安心の制作フロー</h3>
 						<p>クラウドソーシングのような<br>不自由さとは無縁です。</p>
-						<a href="#" style="background-image:url(<?php bloginfo('template_directory');?>/images/button_top_02.png);"><span>制作フロー</span></a>
+						<a href="料金特徴#seisakuflow" style="background-image:url(<?php bloginfo('template_directory');?>/images/button_top_02.png);"><span>制作フロー</span></a>
 					</li>
 					<li>
 						<img src="<?php bloginfo('template_directory');?>/images/top_ill_03.png" width="280" height="213" alt="CM">
@@ -100,7 +101,7 @@ get_header(); ?>
 					</dl>
 				<div class="clearfix"></div>
 				<div class="center">
-					<a href="料金特徴" class="more-genre"><span>もっとジャンルを見る</span></a>
+					<a href="料金特徴#genre" class="more-genre"><span>もっとジャンルを見る</span></a>
 				</div>
 				</div>
 			</section>
