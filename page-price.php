@@ -25,6 +25,7 @@ Template Name: content-page-price
 	<h2 class="price1">UGOKIEのサービスとは？</h2>
 	<p>UGOKIEは、映像の制作からアフターフォロー(映像の再活用)までをトータルサポートする動画制作サービスです。“ただ作って終わり”ではなく、一度配信した動画の新たな使い道提案や、再編集まで徹底サポート致します。</p>
 	<hr>
+	<h3 class="pink mgrb40">アフターフォローが他社にはない最大の魅力</h3>
 	<table class="price-top">
 		<tr>
 			<td>

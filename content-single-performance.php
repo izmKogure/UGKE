@@ -15,7 +15,7 @@
 </div>
 		<p class="category"><span class="genre"><?php the_field('ジャンル',$post->ID); ?></span>&nbsp;&nbsp;<span class="plan"><?php the_field('プラン',$post->ID); ?></spn></p>
 		<div class="performance-post"><?php the_content(); ?></div>
-		<div class="performance-footer"><a href="../実績一覧">実績一覧へ戻る</a> ｜ <a href="<?php echo home_url(); ?>">トップページへ戻る</a></div>
+		<div class="performance-footer"><a href="../制作実績">実績一覧へ戻る</a> ｜ <a href="<?php echo home_url(); ?>">トップページへ戻る</a></div>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
