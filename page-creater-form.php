@@ -82,7 +82,7 @@ get_header(); ?>
 </div>
 <style type="text/css">
 h1.entry-title {
-	background-image:url(<?php bloginfo('template_directory');?>/images/entryheaderimg_creator.png);
+	background-image:url(<?php bloginfo('template_directory');?>/images/headerimg_creator.png);
 }
 </style>
 <?php get_footer(); ?>
