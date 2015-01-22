@@ -28,5 +28,9 @@ get_header(); ?>
 				</dd>
 		<?php endwhile; endif; wp_reset_query(); ?>
 			</dl>
-
+<style type="text/css">
+h1.entry-title {
+	background-image:url(<?php bloginfo('template_directory');?>/images/headerimg_news.png);
+}
+</style>
 <?php get_footer(); ?>

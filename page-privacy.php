@@ -77,7 +77,7 @@ WebビーコンとCookie（クッキー）とを合わせて使用すること�
 </div>
 <style type="text/css">
 h1.entry-title {
-	background-image:url(<?php bloginfo('template_directory');?>/images/entryheadbg2.jpg);
+	background-image:url(<?php bloginfo('template_directory');?>/images/headerimg_pp.png);
 }
 </style>
 <?php get_footer(); ?>

@@ -69,5 +69,9 @@ get_header(); ?>
 		<?php endwhile; // end of the loop. ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+<style type="text/css">
+h1.entry-title {
+	background-image:url(<?php bloginfo('template_directory');?>/images/headerimg_news.png);
+}
+</style>
 <?php get_footer(); ?>

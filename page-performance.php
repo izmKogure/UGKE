@@ -27,6 +27,10 @@ get_header(); ?>
 				</dd>
 			</dl>
 		<?php endwhile; endif; wp_reset_query(); ?>
-
+<style type="text/css">
+h1.entry-title {
+	background-image:url(<?php bloginfo('template_directory');?>/images/headerimg_list.png);
+}
+</style>
 
 <?php get_footer(); ?>

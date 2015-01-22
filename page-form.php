@@ -22,5 +22,9 @@ get_header(); ?>
 
 <?php echo do_shortcode( '[contact-form-7 id="97" title="お問合せ"]' ); ?>
 </div>
-
+<style type="text/css">
+h1.entry-title {
+	background-image:url(<?php bloginfo('template_directory');?>/images/headerimg_toiawase.png);
+}
+</style>
 <?php get_footer(); ?>

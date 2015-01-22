@@ -27,5 +27,9 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+<style type="text/css">
+h1.performance-title {
+	background-image:url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() ); ?>);
+}
+</style>
 <?php get_footer(); ?>

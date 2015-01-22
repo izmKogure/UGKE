@@ -60,5 +60,9 @@ Template Name: content-page-after-follow
 		</div>
 	</section>
 </div>
-
+<style type="text/css">
+h1.entry-title {
+	background-image:url(<?php bloginfo('template_directory');?>/images/headerimg_af.png);
+}
+</style>
 <?php get_footer(); ?>

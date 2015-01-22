@@ -691,8 +691,8 @@ h1.performance-title {
 	line-height:1em;
 	text-align: center;
 	color:#ffffff;
-	background-image:url(images/entryheadbg.jpg);
-	background-repeat:norepeat;
+	background-image:url(images/headerimg_list.png);
+	background-repeat:no-repeat;
 	background-position:50% 50%;
 	background-size:cover;
 	margin-top:-80px;

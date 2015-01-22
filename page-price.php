@@ -140,6 +140,10 @@ Template Name: content-page-price
 		<p><span>※会社のスタッフや関係者向けに交流や現場改善等を目的とする映像</span></p>
 	</div>
 </section>
-
 </div>
+<style type="text/css">
+h1.entry-title {
+	background-image:url(<?php bloginfo('template_directory');?>/images/headerimg_price.png);
+}
+</style>
 <?php get_footer(); ?>
