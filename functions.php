@@ -305,3 +305,17 @@ function get_hatena_hatebu_count($url){
   //カウントを出力
   return $count;
 }
+
+// スタイルシートとスクリプトの読み込みコードを関数にまとめる
+function twentyfourteen_scripts() {
+	/*
+	 * wp_enqueue_script() を使って functions.js を登録・読み込みキューに追加。
+	 * jquery を依存指定し自動的に先に読み込ませる。
+	 * 20140319 というバージョン文字列を URL のクエリーストリングに付加し
+	 * バージョンの異なるファイルキャッシュがある場合は更新されるようにする。
+	 * スクリプトをフッターエリアで読み込ませる（多くの場合この設定が望ましい）。
+	 */
+	wp_enqueue_script( 'twentyfourteen-script', get_template_directory_uri() . '/js/footerjs.js', array( 'jquery' ), '20150122', true );
+}
+// twentyfourteen_scripts() をサイト公開側で呼び出す。
+add_action( 'wp_enqueue_scripts', 'twentyfourteen_scripts' );
