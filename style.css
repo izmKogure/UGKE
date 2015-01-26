@@ -627,6 +627,7 @@ h2.performance {
 }
 dl.performanceslist dt {
 	height:124px;
+	position:relative;
 }
 dl.performanceslist dt img {
 	width:220px;
@@ -752,6 +753,7 @@ dl.news-list dd {
 	margin-left:330px;
 	padding:20px 0;
 	border-bottom: dotted 1px #000000;
+	position:relative;
 }
 dl.news-list dt+dd {
 	border-top: solid 1px #000000;
@@ -1489,3 +1491,44 @@ div#sns_button span.twitter {
   #video-background { display: none; }
 }
 /* モバイル向け全画面動画を背景画像に */
+
+/* リンクホバー共通 */
+div.side-news a:hover,
+dl.performanceslist a:hover,
+dl.news-list a:hover {
+	text-decoration:underline !important;
+}
+div.side-news a:hover {
+	color:#c30d23 !important;
+}
+/* リンクホバー共通 */
+
+/* 404ページ */
+section.error-404 {
+	width:960px;
+	margin:40px auto 40px auto;
+}
+section.error-404 h1 {
+	font-size:40px;
+	margin-bottom:40px;
+}
+/* 404ページ */
+
+/* NEWマーク */
+div.new {
+	position:absolute;
+	top:-21px;
+	left:-21px;
+	width:42px;
+	height:42px;
+	font-size:14px;
+	line-height:42px;
+	background-color:#f1c40c;
+	text-align:center;
+	vertical-align:middle;
+	color:#ffffff;
+	border-radius: 21px;
+}
+dl.news-list dd div.new {
+	top:72px;
+}

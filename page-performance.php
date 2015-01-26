@@ -18,6 +18,17 @@ get_header(); ?>
 			<dl  class="performanceslist">
 				<dt>
 					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array(220,124)); ?></a>
+								<?php
+									$days = 7; //Newマーク表示の日数
+									$daysInt = ($days-1)*86400;
+									$today = time();
+									$entry = get_the_time('U');
+									$dayago = $today-$entry;
+									    if ($dayago < $daysInt) {
+									    $blogUrl = get_bloginfo('template_url');
+									    echo '<div class="new">New</div>';
+									    }
+								?>
 				</dt>
 				<dd>
 					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
