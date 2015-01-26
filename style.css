@@ -1478,3 +1478,11 @@ div#sns_button span.twitter {
 	background-image:url(images/sns_button_twitter.png);
 	background-color:#80caf1;
 }
+/* SNSボタン */
+
+/* モバイル向け全画面動画を背景画像に */
+@media screen and (max-device-width: 800px) {
+  #mainvideo { background: url(images/UGOKIE_PV_AE_20150110.png) #000 no-repeat center center fixed; }
+  #video-background { display: none; }
+}
+/* モバイル向け全画面動画を背景画像に */
