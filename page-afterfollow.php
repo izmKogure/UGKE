@@ -32,7 +32,7 @@ Template Name: content-page-after-follow
 			</dl>
 			<dl class="genre">
 				<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_14.png" width="225" height="134" alt="CM"></dt>
-				<dd><a><span>TrueVies広告</span></a></dd>
+				<dd><a><span>TrueView広告</span></a></dd>
 			</dl>
 			<dl class="genre">
 				<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_15.png" width="225" height="134" alt="CM"></dt>
