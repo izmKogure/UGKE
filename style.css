@@ -417,8 +417,9 @@ div.after-follow dl.genre dd a {
 	overflow:hidden;
 }
 section#service dl.genre:hover dd a,
-div#price dl.price-genre:hover dd a,
-div.after-follow dl.genre:hover dd a {
+div#price dl.price-genre:hover dd a
+/*,
+div.after-follow dl.genre:hover dd a*/ {
 	margin:0;
 	padding:13px;
 	width:191px;
@@ -430,8 +431,9 @@ div.after-follow dl.genre:hover dd a {
 	display:table-cell;
 }
 section#service dl.genre:hover dd a span,
-div#price dl.price-genre:hover dd a span,
-div.after-follow dl.genre:hover dd a span {
+div#price dl.price-genre:hover dd a span
+/*,
+div.after-follow dl.genre:hover dd a span*/ {
 	display:block;
 	visibility:hidden;
 	margin-bottom:-3em;

@@ -28,19 +28,19 @@ Template Name: content-page-after-follow
 		<h3 class="pink">UGOKIEでは新たな配信先まで徹底サポート致します</h3>
 			<dl class="genre">
 				<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_13.png" width="225" height="134" alt="CM"></dt>
-				<dd><a><span>DVD制作</span><br>ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
+				<dd><a><span>DVD制作</span></a></dd>
 			</dl>
 			<dl class="genre">
 				<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_14.png" width="225" height="134" alt="CM"></dt>
-				<dd><a><span>TrueVies広告</span><br>ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
+				<dd><a><span>TrueVies広告</span></a></dd>
 			</dl>
 			<dl class="genre">
 				<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_15.png" width="225" height="134" alt="CM"></dt>
-				<dd><a><span>動画メルマガ</span><br>ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
+				<dd><a><span>動画メルマガ</span></a></dd>
 			</dl>
 			<dl class="genre last">
 				<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_16.png" width="225" height="134" alt="CM"></dt>
-				<dd><a><span>サイネージ</span><br>ダミー文字ダミー文字ダミー文字ダミー文字</a></dd>
+				<dd><a><span>サイネージ</span></a></dd>
 			</dl>
 			<div class="clearfix"></div>
 			<ul>
