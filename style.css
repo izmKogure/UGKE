@@ -1482,7 +1482,7 @@ div#sns_button span.twitter {
 
 /* モバイル向け全画面動画を背景画像に */
 @media screen and (max-device-width: 800px) {
-  #mainvideo { background: url(images/UGOKIE_PV_AE_20150110.png) transparent no-repeat center center fixed; }
+  #mainvideo { background: url(images/UGOKIE_PV_AE_20150110.png) no-repeat center center; }
   #video-background { display: none; }
 }
 /* モバイル向け全画面動画を背景画像に */
