@@ -17,8 +17,8 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<div id="mainvideo">
 				<video autoplay loop id="video-background" muted>
-					<source src="<?php bloginfo('template_directory');?>/images/UGOKIE_PV_AE_20150110.mp4" type="video/mp4" autoplay>
-					<source src="<?php bloginfo('template_directory');?>/images/UGOKIE_PV_AE_20150110.webm" type="video/webm" autoplay>
+					<source src="<?php bloginfo('template_directory');?>/images/UGOKIE_PV_AE_20150110.mp4" type="video/mp4" autoplay poster="<?php bloginfo('template_directory');?>/images/UGOKIE_PV_AE_20150110.png">
+					<source src="<?php bloginfo('template_directory');?>/images/UGOKIE_PV_AE_20150110.webm" type="video/webm" autoplay poster="<?php bloginfo('template_directory');?>/images/UGOKIE_PV_AE_20150110.png">
 				</video>
 			</div>
 			<section id="mainvisual">
