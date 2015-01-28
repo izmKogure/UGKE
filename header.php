@@ -11,6 +11,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=1000">
+<link rel="shortcut icon" href="http://ugokie.com/wp-content/uploads/2015/01/favicon_contest.ico">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 
 <?php wp_head(); ?>
