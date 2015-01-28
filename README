@@ -9,5 +9,10 @@ postfix
 利用プラグイン
 Advanced Custom Fields
 Contact Form 7
-Contact Form 7 add confirm
 スライドショー（StefanBoonstra）
+Shortcodes Ultimate
+All In One SEO Pack
+WP Multibyte Patch
+
+Contact Form 7をバージョンアップする際は「functions.php」の「wpcf7_add_shortcode('show_mytheme_url', 'get_mytheme_url', true);」をコメントアウトして下さい
+画面が真っ白になります
