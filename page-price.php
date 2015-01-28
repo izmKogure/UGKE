@@ -23,7 +23,7 @@ Template Name: content-page-price
 <section>
 <div class="pricewrapper">
 	<h2 class="price1">UGOKIEのサービスとは？</h2>
-	<p>UGOKIEは、映像の制作からアフターフォロー(映像の再活用)までをトータルサポートする動画制作サービスです。“ただ作って終わり”ではなく、一度配信した動画の新たな使い道提案や、再編集まで徹底サポート致します。</p>
+	<p>UGOKIEは、映像の制作からアフターフォロー(映像の再活用)までをトータルサポートする動画制作サービスです。<br>“ただ作って終わり”ではなく、一度配信した動画の新たな使い道の提案や、再編集まで徹底サポート致します。</p>
 	<hr>
 	<h3 class="pink mgrb40">アフターフォローが他社にはない最大の魅力</h3>
 	<table class="price-top">
@@ -122,11 +122,11 @@ Template Name: content-page-price
 				<h3 class="pink">社内向けの動画ジャンルまでカバー</h3>
 					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_09.png" width="225" height="134" alt="CM"></dt>
-						<dd><a><span>プレゼン</span><br>動画で戦略をより伝わりやすく、印象にのこる発表に</a></dd>
+						<dd><a><span>プレゼン</span><br>動画でポイントをより伝わりやすく印象に残る発表に</a></dd>
 					</dl>
 					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_10.png" width="225" height="134" alt="CM"></dt>
-						<dd><a><span>マニュアル</span><br>説明書では表現がむすかしい操作方法を動画で詳しく</a></dd>
+						<dd><a><span>マニュアル</span><br>説明書では表現がむずかしい操作方法を動画で詳しく</a></dd>
 					</dl>
 					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_11.png" width="225" height="134" alt="CM"></dt>

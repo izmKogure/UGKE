@@ -641,6 +641,8 @@ dl.performanceslist dd h3 {
 	font-size:20px;
 	line-height:1em;
 	margin-bottom:6px;
+	position:relative;
+	z-index:2;
 }
 dl.performanceslist dd h3 a {
 	color:#d13131;
