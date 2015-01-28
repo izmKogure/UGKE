@@ -52,7 +52,7 @@ get_header(); ?>
 						<img src="<?php bloginfo('template_directory');?>/images/top_ill_03.png" width="280" height="213" alt="CM">
 						<h3>アフターフォロー</h3>
 						<p>一度配信した動画の<br>修正も心配いりません！</p>
-						<a href="#" style="background-image:url(<?php bloginfo('template_directory');?>/images/button_top_03.png);"><span>アフターフォローを見る</span></a>
+						<a href="アフターフォロー" style="background-image:url(<?php bloginfo('template_directory');?>/images/button_top_03.png);"><span>アフターフォローを見る</span></a>
 					</li>
 				</ul>
 			</section>
