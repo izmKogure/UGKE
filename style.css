@@ -89,7 +89,9 @@ hr {
 input, select {
     vertical-align:middle;
 }
-
+dd {
+	word-wrap:break-word;
+}
 
 /**
  * -----Option CSS-----
