@@ -1028,6 +1028,7 @@ div#form table#form td.formtext {
 
 /* アフターフォロー */
 div.after-follow h2.after2 {
+	width:809px;
 	background-image:url(images/background_h2_entry_after.png);
 	padding-left:151px;
 }
@@ -1265,7 +1266,7 @@ footer div#serviceinfo dd:after {
 	visibility: hidden;
 }
 footer div#serviceinfo ul {
-	margin-top:15px;
+	margin-top:10px;
 }
 footer div#serviceinfo li {
 	float:left;
@@ -1534,3 +1535,8 @@ div.new {
 dl.news-list dd div.new {
 	top:72px;
 }
+/* NEWマーク */
+
+/* モバイル対策 */
+
+/* モバイル対策 */
