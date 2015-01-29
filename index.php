@@ -72,11 +72,11 @@ get_header(); ?>
 					</dl>
 					<dl class="genre">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_03.png" width="225" height="134" alt="CM"></dt>
-						<dd><a><span>展示会・イベント</span><br>ブースの演出映像や商品説明で集客アップ</a></dd>
+						<dd><a><span>展示会・イベント</span><br>ブースの演出映像や商品説明で集客力アップ</a></dd>
 					</dl>
 					<dl class="genre last">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_04.png" width="225" height="134" alt="CM"></dt>
-						<dd><a><span>採用</span><br>新卒や中途採用向け動画で企業イメージをアップ</a></dd>
+						<dd><a><span>採用</span><br>新卒や中途採用向け動画で企業イメージを伝える</a></dd>
 					</dl>
 				<div class="clearfix"></div>
 				</div>

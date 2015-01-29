@@ -605,7 +605,8 @@ div.entry-content {
 }
 div.entry-content h2,
 div#form h2,
-div.after-follow h2 {
+div.after-follow h2,
+div#price h2 {
 	width:860px;
 	font-size:40px;
 	line-height:84px;
@@ -861,12 +862,6 @@ div#price section:after {
 	height: 0;
 	display: block;
 	visibility: hidden;
-}
-div#price h2 {
-	margin-bottom:30px;
-	font-size:30px;
-	line-height:84px;
-	padding-left:100px;
 }
 div#price h2 {
 	background: url(images/price_icon01.png) no-repeat left 50%;

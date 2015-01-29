@@ -89,11 +89,11 @@ Template Name: content-page-price
 					</dl>
 					<dl class="price-genre">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_03.png" width="225" height="134" alt="CM"></dt>
-						<dd><a><span>展示会・イベント</span><br>ブースの演出映像や商品説明で集客アップ</a></dd>
+						<dd><a><span>展示会・イベント</span><br>ブースの演出映像や商品説明で集客力アップ</a></dd>
 					</dl>
 					<dl class="price-genre last">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_04.png" width="225" height="134" alt="CM"></dt>
-						<dd><a><span>採用</span><br>新卒や中途採用向け動画で企業イメージをアップ</a></dd>
+						<dd><a><span>採用</span><br>新卒や中途採用向け動画で企業イメージを伝える</a></dd>
 					</dl>
 				<div class="clearfix"></div>
 				</div>
@@ -126,7 +126,7 @@ Template Name: content-page-price
 					</dl>
 					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_10.png" width="225" height="134" alt="CM"></dt>
-						<dd><a><span>マニュアル</span><br>説明書では表現がむずかしい操作方法を動画で詳しく</a></dd>
+						<dd><a><span>マニュアル</span><br>説明書では表現が難しい操作方法を動画で詳しく</a></dd>
 					</dl>
 					<dl class="price-genre mgrb20">
 						<dt><img src="<?php bloginfo('template_directory');?>/images/icon_top_11.png" width="225" height="134" alt="CM"></dt>
