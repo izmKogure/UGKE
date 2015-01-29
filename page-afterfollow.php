@@ -56,7 +56,7 @@ Template Name: content-page-after-follow
 	<section class="gray">
 		<div class="wrapper">
 			<h2 class="mgrb70">先着５０社様限定、オープンキャンペーン！</h2>
-			<p class="campaing">UGOKIEサービスの公開を記念して、ご納品後１年間テキスト差替えと写真・動画差替えを無料で対応させて頂きます！<br><a href="お問合せ">詳細はお問合せください</a></p>
+			<div style="text-align:center;"><a href="お問合せ"><img src="<?php bloginfo('template_directory');?>/images/banner_campaign.png" width="750" height="310" alt="オープンキャンペーン｜先着50社様限定　納品後1年間無料で差し替えます　詳細はお問合せ下さい"></a></div>
 		</div>
 	</section>
 </div>
