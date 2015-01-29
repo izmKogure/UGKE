@@ -145,6 +145,7 @@ Template Name: content-page-price
 <style type="text/css">
 h1.entry-title {
 	background-image:url(<?php bloginfo('template_directory');?>/images/headerimg_price.png);
+	background-position:50% 40%;
 }
 </style>
 <?php get_footer(); ?>
