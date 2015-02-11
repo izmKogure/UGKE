@@ -13,6 +13,7 @@ Contact Form 7
 Shortcodes Ultimate
 All In One SEO Pack
 WP Multibyte Patch
+Shortcodes Ultimate
 
 Contact Form 7をバージョンアップする際は「functions.php」の「wpcf7_add_shortcode('show_mytheme_url', 'get_mytheme_url', true);」をコメントアウトして下さい
 画面が真っ白になります
