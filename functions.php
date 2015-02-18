@@ -319,3 +319,49 @@ function twentyfourteen_scripts() {
 }
 // twentyfourteen_scripts() をサイト公開側で呼び出す。
 add_action( 'wp_enqueue_scripts', 'twentyfourteen_scripts' );
+
+/**
+ *CustumPost ブログ追加
+*/
+add_action( 'init', 'register_cpt_blog' );
+
+function register_cpt_blog() {
+
+    $labels = array( 
+        'name' => _x( 'ブログ', 'blog' ),
+        'singular_name' => _x( 'ブログ', 'blog' ),
+        'add_new' => _x( 'Add New', 'blog' ),
+        'add_new_item' => _x( 'Add New ブログ', 'blog' ),
+        'edit_item' => _x( 'Edit ブログ', 'blog' ),
+        'new_item' => _x( 'New ブログ', 'blog' ),
+        'view_item' => _x( 'View ブログ', 'blog' ),
+        'search_items' => _x( 'Search ブログ', 'blog' ),
+        'not_found' => _x( 'No ブログ found', 'blog' ),
+        'not_found_in_trash' => _x( 'No ブログ found in Trash', 'blog' ),
+        'parent_item_colon' => _x( 'Parent ブログ:', 'blog' ),
+        'menu_name' => _x( 'ブログ', 'blog' ),
+    );
+
+    $args = array( 
+        'labels' => $labels,
+        'hierarchical' => true,
+        
+        'supports' => array( 'title', 'editor', 'thumbnail', 'custom-fields', 'revisions' ),
+        'taxonomies' => array( 'category', 'post_tag' ),
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        
+        
+        'show_in_nav_menus' => true,
+        'publicly_queryable' => true,
+        'exclude_from_search' => false,
+        'has_archive' => true,
+        'query_var' => true,
+        'can_export' => true,
+        'rewrite' => true,
+        'capability_type' => 'post'
+    );
+
+    register_post_type( 'blog', $args );
+}
