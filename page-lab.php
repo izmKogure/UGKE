@@ -11,6 +11,10 @@
  */
 
 get_header(); ?>
+<header class="entry-header">
+					<h1 class="entry-title">UGOKIE Lab.</h1>
+				</header><!-- .entry-header -->
+<div class="entry-content">
 <h2 class="news-list">UGOKIE Lab.</h2>
 <?php $args = array(
 	'hide_empty'         => 0,
@@ -45,6 +49,7 @@ get_header(); ?>
 				</dd>
 		<?php endwhile; endif; wp_reset_query(); ?>
 			</dl>
+</div>
 <style type="text/css">
 h1.entry-title {
 	background-image:url(<?php bloginfo('template_directory');?>/images/headerimg_news.png);
