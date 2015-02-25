@@ -323,23 +323,23 @@ add_action( 'wp_enqueue_scripts', 'twentyfourteen_scripts' );
 /**
  *CustumPost ブログ追加
 */
-add_action( 'init', 'register_cpt_blog' );
+add_action( 'init', 'register_cpt_lab' );
 
-function register_cpt_blog() {
+function register_cpt_lab() {
 
     $labels = array( 
-        'name' => _x( 'ブログ', 'blog' ),
-        'singular_name' => _x( 'ブログ', 'blog' ),
-        'add_new' => _x( 'Add New', 'blog' ),
-        'add_new_item' => _x( 'Add New ブログ', 'blog' ),
-        'edit_item' => _x( 'Edit ブログ', 'blog' ),
-        'new_item' => _x( 'New ブログ', 'blog' ),
-        'view_item' => _x( 'View ブログ', 'blog' ),
-        'search_items' => _x( 'Search ブログ', 'blog' ),
-        'not_found' => _x( 'No ブログ found', 'blog' ),
-        'not_found_in_trash' => _x( 'No ブログ found in Trash', 'blog' ),
-        'parent_item_colon' => _x( 'Parent ブログ:', 'blog' ),
-        'menu_name' => _x( 'ブログ', 'blog' ),
+        'name' => _x( 'UGOKIE Lab.', 'lab' ),
+        'singular_name' => _x( 'UGOKIE Lab.', 'lab' ),
+        'add_new' => _x( 'Add New', 'lab' ),
+        'add_new_item' => _x( 'Add New UGOKIE Lab.', 'lab' ),
+        'edit_item' => _x( 'Edit UGOKIE Lab.', 'lab' ),
+        'new_item' => _x( 'New UGOKIE Lab.', 'lab' ),
+        'view_item' => _x( 'View UGOKIE Lab.', 'lab' ),
+        'search_items' => _x( 'Search UGOKIE Lab.', 'lab' ),
+        'not_found' => _x( 'No UGOKIE Lab. found', 'lab' ),
+        'not_found_in_trash' => _x( 'No UGOKIE Lab. found in Trash', 'lab' ),
+        'parent_item_colon' => _x( 'Parent UGOKIE Lab.:', 'lab' ),
+        'menu_name' => _x( 'UGOKIE Lab.', 'lab' ),
     );
 
     $args = array( 
@@ -363,5 +363,5 @@ function register_cpt_blog() {
         'capability_type' => 'post'
     );
 
-    register_post_type( 'blog', $args );
+    register_post_type( 'lab', $args );
 }

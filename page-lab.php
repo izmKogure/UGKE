@@ -11,10 +11,16 @@
  */
 
 get_header(); ?>
-<h2 class="news-list">ブログ</h2>
+<h2 class="news-list">UGOKIE Lab.</h2>
+<?php $args = array(
+	'hide_empty'         => 0,
+	'exclude'       => '1',
+	'title_li'           => ''
+); ?>
+			
 			<dl class="news-list">
-				<dt><p>2015年</p></dt>
-		<?php query_posts('post_type=blog');
+				<dt><?php wp_list_categories( $args ); ?></dt>
+		<?php query_posts('post_type=lab');
 		if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<dd>
 					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
