@@ -29,17 +29,28 @@
 				<div class="wrapper">
 					<dl>
 						<dt>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory');?>/images/logo_1c.png" width="286" height="60" alt="動画制作をトータルサポート　UGOKIE"></a>
-						</dt>
-						<dd>
-							東京都渋谷区道玄坂2-15-1 ノア道玄坂6F<br>TEL / 03-6416-3240&nbsp;&nbsp;&nbsp;FAX / 03-6416-3242
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory');?>/images/logo_1c.png" width="286" height="60" alt="動画制作をトータルサポート　UGOKIE"></a><br>
+東京都渋谷区道玄坂2-15-1 ノア道玄坂6F<br>TEL / 03-6416-3240&nbsp;&nbsp;&nbsp;FAX / 03-6416-3242
 							<ul>
 								<li><a class="youtube" href="https://www.youtube.com/channel/UCfVs6zmdQzz-xxdG8B5WTyw" target="_blank"><span>YouTube</span></a></li>
 								<li><a class="facebook" href="https://www.facebook.com/ugokie" target="_blank"><span>Facebook</span></a></li>
 							</ul>
+						</dt>
+						<dd>
+				<div id="likebox">
+					<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s); js.id = id;
+							js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=758942267458537&version=v2.0";
+							fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));</script>
+							<div class="fb-like-box" data-href="https://www.facebook.com/ugokie" data-width="560" data-height="260" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+			</div>
 						</dd>
 				</div>
-			</div>
+
 			<div id="boshu">
 				<a href="クリエイター募集"><span>クリエイター募集中　詳しくはこちら</span></a>
 			</div>

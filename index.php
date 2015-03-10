@@ -120,7 +120,7 @@ get_header(); ?>
 			</section>
 
 			<section id="news">
-				<div class="wrapper">
+				<div class="wrapper clearfix">
 					<h2>ニュース<a href="ニュース"><img src="<?php bloginfo('template_directory');?>/images/button_tri.png" width="190" height="30" alt=""></a></h2>
 					
 					<div class="side-news">
@@ -147,7 +147,8 @@ get_header(); ?>
 
 						</ul>
 					</div>
-					<div class="side-news">
+					<h2 style="float:right; margin-top:-60px;">UGOKIE Lab.<a href="lab"><img src="<?php bloginfo('template_directory');?>/images/button_tri2.png" width="190" height="30" alt=""></a></h2>
+					<div class="right-side-news">
 						<ul class="blog">
 							<?php query_posts('post_type=lab&showposts=4');
 							if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -172,16 +173,6 @@ get_header(); ?>
 						</ul>
 					</div>
 					<?php if ( have_posts() ) : ?>
-<!--					<div id="likebox">
-					<div id="fb-root"></div>
-						<script>(function(d, s, id) {
-							var js, fjs = d.getElementsByTagName(s)[0];
-							if (d.getElementById(id)) return;
-							js = d.createElement(s); js.id = id;
-							js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=758942267458537&version=v2.0";
-							fjs.parentNode.insertBefore(js, fjs);
-							}(document, 'script', 'facebook-jssdk'));</script>
-							<div class="fb-like-box" data-href="https://www.facebook.com/ugokie" data-width="450" data-height="520" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>-->
 					</div>
 				</div>
 			</section>
