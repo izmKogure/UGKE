@@ -147,8 +147,32 @@ get_header(); ?>
 
 						</ul>
 					</div>
-					<div id="likebox">
+					<div class="side-news">
+						<ul class="blog">
+							<?php query_posts('post_type=lab&showposts=4');
+							if (have_posts()) : while (have_posts()) : the_post(); ?>
+								<li><a href="<?php the_permalink(); ?>">
+								<?php the_post_thumbnail(array(176,100)); ?></a>
+								<p><span><?php the_time(Y年m月d日); ?></span><br>
+								<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+								<?php
+									$days = 7; //Newマーク表示の日数
+									$daysInt = ($days-1)*86400;
+									$today = time();
+									$entry = get_the_time('U');
+									$dayago = $today-$entry;
+									    if ($dayago < $daysInt) {
+									    $blogUrl = get_bloginfo('template_url');
+									    echo '<div class="new">New</div>';
+									    }
+								?>
+								</li>
+							<?php endwhile; endif; wp_reset_query(); ?>
+
+						</ul>
+					</div>
 					<?php if ( have_posts() ) : ?>
+<!--					<div id="likebox">
 					<div id="fb-root"></div>
 						<script>(function(d, s, id) {
 							var js, fjs = d.getElementsByTagName(s)[0];
@@ -157,7 +181,7 @@ get_header(); ?>
 							js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=758942267458537&version=v2.0";
 							fjs.parentNode.insertBefore(js, fjs);
 							}(document, 'script', 'facebook-jssdk'));</script>
-							<div class="fb-like-box" data-href="https://www.facebook.com/ugokie" data-width="450" data-height="520" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+							<div class="fb-like-box" data-href="https://www.facebook.com/ugokie" data-width="450" data-height="520" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>-->
 					</div>
 				</div>
 			</section>
