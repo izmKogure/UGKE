@@ -11,11 +11,9 @@
  */
 
 get_header(); ?>
-<!--
 <header class="entry-header">
-					<h1 class="entry-title">UGOKIE Lab.</h1>
-				</header>
--->
+	<h1 class="entry-title">UGOKIE Lab.</h1>
+</header>
 <div class="entry-content">
 <h2 class="news-list">UGOKIE Lab.</h2>
 <?php $args = array(
