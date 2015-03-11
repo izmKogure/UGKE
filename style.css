@@ -1100,6 +1100,33 @@ div.after-follow p.campaing a {
 /* アフターフォロー */
 
 /*　クリエーター募集 */
+div#creater-form hr {
+	border-style:dotted;
+	margin-bottom:40px;
+}
+dl.creator {
+	width:460px;
+	float:left;
+	margin-bottom:20px;
+}
+dl.creator dd b {
+	font-size:20px;
+	line-height:1em;
+	margin-bottom:12px;
+	display:block;
+}
+dl.creator dt {
+	height:100px;
+}
+dl.creator dt img {
+	margin-bottom:0 !important;
+}
+dl.creator dd {
+	margin:-100px 0 0 120px;
+	height:100px;
+	font-size:16px;
+	line-height:1.4em;
+}
 div#creater-form p {
 	font-size:18px;
 	line-height:1.9em;
