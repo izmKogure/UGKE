@@ -1434,6 +1434,18 @@ div.wrapper {
 	margin:0 !important;
 	padding:0 !important;
 }
+span.tab-menu1 {
+	background: no-repeat url("images/price_navi_flow_deactive.png") !important;
+	background-position-x: 0 !important;
+}
+span.tab-menu2 {
+	background: no-repeat url("images/price_navi_flow_deactive.png") !important;
+	background-position-x: -300px !important;
+}
+span.tab-menu3 {
+	background: no-repeat url("images/price_navi_flow_deactive.png") !important;
+	background-position-x: -600px !important;
+}
 .tab1 {
 	background-image:url(images/price_ill_tag01.png);
 	height:1264px;
@@ -1453,27 +1465,31 @@ div.wrapper {
 	background-color:transparent !important;
 }
 .su-tabs-nav span {
-	min-height:24px !important;
-	margin:0 0 80px 0 !important;
+	display:inline-block !important;
+	width:300px !important;
+	height:80px !important;
+	overflow: hidden !important;
+	text-indent: 100% !important;
+	white-space: nowrap !important;
+	margin-right:30px !important;
+	margin-bottom:40px !important;
 	padding:0 !important;
-	font-size:24px !important;
-	line-height:1em !important;
-	padding:0 26px !important;
-	border-right:solid 1px #000000 !important;
-	border-radius:0px !important;
-}
-.su-tabs-nav span:hover {
-	background-color:transparent !important;
-}
-.su-tabs-current {
-	color:#c51919 !important;
-}
-.su-tabs-nav span:first-child {
-	padding-left:0 !important;
+	-webkit-transition:none !important;
+	-moz-transition:none !important;
+	-o-transition:none !important;
+	transition:none !important;
 }
 .su-tabs-nav span:last-child {
-	border-right:none !important;
+	margin-right:0 !important;
 }
+span.tab-menu1.su-tabs-current,
+span.tab-menu2.su-tabs-current,
+span.tab-menu3.su-tabs-current {
+	background: no-repeat url("images/price_navi_flow_active.png") !important;
+}
+/*.su-tabs-nav span:hover {
+	background-position-y: 0 !important;
+}*/
 /* 料金特徴のタブ */
 
 /* SNSボタン */

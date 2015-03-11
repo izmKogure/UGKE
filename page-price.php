@@ -65,9 +65,9 @@ Template Name: content-page-price
 		<hr>
 <?php echo do_shortcode('
 [su_tabs]
-  [su_tab title="シンプルプラン"]<div class="tab1"></div>[/su_tab]
-  [su_tab title="スタンダードプラン"]<div class="tab2"></div>[/su_tab]
-  [su_tab title="ディレクターズプラン"]<div class="tab3"></div>[/su_tab]
+  [su_tab title="シンプルプラン" class="tab-menu1"]<div class="tab1"></div>[/su_tab]
+  [su_tab title="スタンダードプラン" class="tab-menu2"]<div class="tab2"></div>[/su_tab]
+  [su_tab title="ディレクターズプラン" class="tab-menu3"]<div class="tab3"></div>[/su_tab]
 [/su_tabs]
 '); ?>
 </div>
