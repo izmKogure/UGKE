@@ -43,6 +43,10 @@ get_header(); ?>
 		<td>03-6416-3240</td>
 	<tr>
 	<tr>
+		<th>FAX</th>
+		<td>03-6416-3242</td>
+	<tr>
+	<tr>
 		<th>Mail</th>
 		<td> info@s-rep.co.jp</td>
 	<tr>
