@@ -1638,6 +1638,7 @@ dl.news-list dt.lab li a:hover {
 	color:#d32626;
 }
 body.page dl.news-list dt.lab li.all a,
+body.archive dl.news-list dt.lab li.all a,
 dl.news-list dt.lab li.current-cat a {
 	color:#d32626;
 	background:url(images/lab_tri.png) 20px center no-repeat;
