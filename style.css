@@ -612,7 +612,8 @@ h1.entry-title {
 }
 /* Page　固定ページ共通ヘッダー END */
 /* Page　固定ページ共通 */
-div.entry-content {
+div.entry-content,
+div.events_contents {
 	width:960px;
 	margin:0 auto;
 	margin-bottom:60px;
