@@ -619,6 +619,7 @@ div.events_contents {
 	margin-bottom:60px;
 }
 div.entry-content h2,
+div.events_contents h2,
 div#form h2,
 div.after-follow h2,
 div#price h2 {
@@ -629,7 +630,8 @@ div#price h2 {
 	margin-bottom:20px;
 	background: url(images/background_h2_entry.png) no-repeat left 50%;
 }
-div.entry-content p {
+div.entry-content p,
+div.events_contents p {
 	font-size:16px;
 	line-height:1.5em;
 }
