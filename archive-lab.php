@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /**
  * The template for displaying all pages.
  *
@@ -23,18 +23,18 @@ get_header(); ?>
 ); ?>
 			
 			<dl class="news-list">
-				<dt class="lab"><span class="lablist">‹LŽ–ˆê——</span><li class="all"><a href="/lab">‚·‚×‚Ä</a></li><?php wp_list_categories( $args ); ?></dt>
+				<dt class="lab"><span class="lablist">è¨˜äº‹ä¸€è¦§</span><li class="all"><a href="/lab">ã™ã¹ã¦</a></li><?php wp_list_categories( $args ); ?></dt>
 		<?php query_posts('post_type=lab');
 		if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<dd>
 					<?php the_category(); ?>
 					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-					<p class="date"><?php the_time(Y”NmŒŽd“ú); ?></p>
+					<p class="date"><?php the_time(Yå¹´mæœˆdæ—¥); ?></p>
 					<?php the_tags( '<ul class="lab-tag"><li>','</li><li>','</li></ul>' ); ?>
 					<div class="labnew-wrapper">
 					<?php the_content( $post->post_content ) ?>
 								<?php
-									$days = 7; //Newƒ}[ƒN•\Ž¦‚Ì“ú”
+									$days = 7; //Newãƒžãƒ¼ã‚¯è¡¨ç¤ºã®æ—¥æ•°
 									$daysInt = ($days-1)*86400;
 									$today = time();
 									$entry = get_the_time('U');
