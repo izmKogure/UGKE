@@ -51,7 +51,9 @@ get_header(); ?>
 								?>
 				</dd>
 <?php endwhile; else: ?>
+			<dt>
 			<p>記事はありません。</p>
+			</dt>
 		<?php endif; wp_reset_query(); ?>
 			</dl>
 </div>
