@@ -56,7 +56,6 @@ get_header(); ?>
 			</dd>
 			<style>
 				body.archive dl.news-list dt.lab li.all a {background:none; color:#333333;}
-				dl.news-list {z-index:20;}
 			</style>
 		<?php endif; wp_reset_query(); ?>
 			</dl>
