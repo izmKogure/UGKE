@@ -54,6 +54,9 @@ get_header(); ?>
 			<dd>
 			<p>記事はありません。</p>
 			</dd>
+			<style>
+				body.archive dl.news-list dt.lab li.all a {background:none;}
+			</style>
 		<?php endif; wp_reset_query(); ?>
 			</dl>
 </div>
