@@ -65,5 +65,7 @@ get_header(); ?>
 h1.entry-title {
 	background-image:url(<?php bloginfo('template_directory');?>/images/headerimg_news.png);
 }
-</style>
+div.entry-content h2 {
+	background: url(<?php bloginfo('template_directory');?>/images/background_h2_lab.png) no-repeat left 50%;
+}</style>
 <?php get_footer(); ?>
