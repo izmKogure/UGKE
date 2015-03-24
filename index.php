@@ -112,7 +112,7 @@ get_header(); ?>
 					<?php do_action('slideshow_deploy', '34'); ?>
 				</div>
 				<div class="zisseki">
-					<h2>制作実績<img src="<?php bloginfo('template_directory');?>/images/top_icon_performance.png" width="72" height="72" alt=""></h2>
+					<h2><img src="<?php bloginfo('template_directory');?>/images/top_icon_performance.png" width="72" height="72" alt="" class="mgrr20">制作実績</h2>
 					<p>私たちは様々な配信媒体を分析し、配信時により視聴者に響く映像制作を心がけています。“ただ作るだけでは終わらない”を意識して制作したUGOKIEの動画事例を是非ご覧ください。</p>
 					<a href="制作実績" class="seisaku-zisseki"><span>制作実績をもっと見る</span></a>
 				</div>
