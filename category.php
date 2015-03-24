@@ -56,10 +56,11 @@ get_header(); ?>
 			</dd>
 			<style>
 				body.archive dl.news-list dt.lab li.all a {background:none; color:#333333;}
-				footer {z-index:-1;}
+				dl.news-list {z-index:20;}
 			</style>
 		<?php endif; wp_reset_query(); ?>
 			</dl>
+			<div class="clearfix"></div>
 </div>
 <style type="text/css">
 h1.entry-title {
