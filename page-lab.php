@@ -51,8 +51,13 @@ get_header(); ?>
 						<a href="http://twitter.com/share?url=<?php the_permalink(); ?>&text=UGOKIE&" target="_blank"><span class="sns_count twitter"><?php echo get_twitter_tweet_count( get_the_permalink() );?></span></a>
 					</div>
 				</dd>
-		<?php endwhile; endif; wp_reset_query(); ?>
+<?php endwhile; else: ?>
+			<dd>
+			<p>記事はありません。</p>
+			</dd>
+		<?php endif; wp_reset_query(); ?>
 			</dl>
+			<div class="clearfix"></div>
 </div>
 <style type="text/css">
 h1.entry-title {
