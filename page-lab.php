@@ -22,7 +22,7 @@ get_header(); ?>
 	'title_li'           => ''
 ); ?>
 			
-			<dl class="news-list">
+			<dl class="news-list clearfix">
 				<dt class="lab"><span class="lablist">記事一覧</span><li class="all"><a href="/lab">すべて</a></li><?php wp_list_categories( $args ); ?></dt>
 		<?php query_posts('post_type=lab');
 		if (have_posts()) : while (have_posts()) : the_post(); ?>
