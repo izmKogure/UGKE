@@ -330,9 +330,9 @@ function register_cpt_lab() {
     $labels = array( 
         'name' => _x( 'UGOKIE Lab.', 'lab' ),
         'singular_name' => _x( 'UGOKIE Lab.', 'lab' ),
-        'add_new' => _x( 'Add New', 'lab' ),
-        'add_new_item' => _x( 'Add New UGOKIE Lab.', 'lab' ),
-        'edit_item' => _x( 'Edit UGOKIE Lab.', 'lab' ),
+        'add_new' => _x( '新規投稿', 'lab' ),
+        'add_new_item' => _x( 'Lab.に新規投稿', 'lab' ),
+        'edit_item' => _x( 'Lab.を編集', 'lab' ),
         'new_item' => _x( 'New UGOKIE Lab.', 'lab' ),
         'view_item' => _x( 'View UGOKIE Lab.', 'lab' ),
         'search_items' => _x( 'Search UGOKIE Lab.', 'lab' ),
