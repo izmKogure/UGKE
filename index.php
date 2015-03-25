@@ -170,7 +170,7 @@ get_header(); ?>
 								</li>
 <?php endwhile; else: ?>
 			<li>記事はありません</li>
-							<?php endwhile; endif; wp_reset_query(); ?>
+							<?php endif; wp_reset_query(); ?>
 
 						</ul>
 					</div>
