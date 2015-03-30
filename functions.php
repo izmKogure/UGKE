@@ -365,3 +365,6 @@ function register_cpt_lab() {
 
     register_post_type( 'lab', $args );
 }
+
+remove_filter('the_content', 'wpautop');  // 記事の自動整形を無効にする
+remove_filter('the_excerpt', 'wpautop');  // 抜粋の自動整形を無効にする
