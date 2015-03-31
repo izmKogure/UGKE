@@ -41,9 +41,9 @@ get_header(); ?>
 									$dayago = $today-$entry;
 									    if ($dayago < $daysInt) {
 									    $blogUrl = get_bloginfo('template_url');
-									    echo '<div class="new">New</div>';
 									    }
 								?>
+						<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array(630,355)); ?></a>
 					</div>
 					<div id="sns_button">
 						<a href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>" target="_blank"><span class="sns_count facebook"><?php echo get_facebook_like_count( get_the_permalink() );?></span></a>
