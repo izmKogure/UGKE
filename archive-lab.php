@@ -32,7 +32,7 @@ get_header(); ?>
 					<p class="date"><?php the_time(Y年m月d日); ?></p>
 					<?php the_tags( '<ul class="lab-tag"><li>','</li><li>','</li></ul>' ); ?>
 					<div class="labnew-wrapper">
-					<?php the_content( $post->post_content ) ?>
+						<?php the_content( $post->post_content ) ?>
 								<?php
 									$days = 7; //Newマーク表示の日数
 									$daysInt = ($days-1)*86400;
