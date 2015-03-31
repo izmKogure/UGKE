@@ -22,11 +22,11 @@ get_header(); ?>
 	'title_li'           => ''
 ); ?>
 			
-			<dl class="news-list clearfix">
+			<dl class="news-list clearfix lab">
 				<dt class="lab"><span class="lablist">記事一覧</span><li class="all"><a href="/lab">すべて</a></li><?php wp_list_categories( $args ); ?></dt>
 		<?php query_posts('post_type=lab');
 		if (have_posts()) : while (have_posts()) : the_post(); ?>
-			<dd>
+			<dd class="lab">
 					<?php the_category(); ?>
 					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 					<p class="date"><?php the_time(Y年m月d日); ?></p>

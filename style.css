@@ -1648,7 +1648,7 @@ dl.news-list dt.lab li.current-cat a {
 }
 dl.news-list dd ul.post-categories {
 	float:right;
-	margin:-21px 0 0 0;
+	margin:-31px 0 0 0;
 }
 dl.news-list dd ul.post-categories li {
 	list-style:none;
@@ -1697,5 +1697,9 @@ dd div.labnew-wrapper p {
 }
 dl.news-list dd div.labnew-wrapper div.new {
 	top:31px;
+}
+dd.lab {
+	border-bottom:dotted 1px #FF0000 !important;
+	padding-top:30px !important;
 }
 /* UGOKIE Lab. */
