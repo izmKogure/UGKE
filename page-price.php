@@ -61,7 +61,10 @@ Template Name: content-page-price
 		<h2 class="price3">制作フロー</h2>
 		<h3 class="pink">UGOKIEが一貫してクオリティ管理を実施</h3>
 		<p class="mgrb60">クラウドソーシング等でありがちな「納期になっても提案がない…」「こちらの要望とかけ離れている…」というような苦労とは無縁です。</p>
-		<div class="center"><a href="<?php bloginfo('template_directory');?>/images/UGOKIE_Scenario_Board_ver1.xlsx"><img src="<?php bloginfo('template_directory');?>/images/price_button_01.png" width="358" height="30" alt="シナリオボードをダウンロードする"></a></div>
+		<div class="center">
+			<a href="<?php bloginfo('template_directory');?>/images/UGOKIE_Scenario_Board_ver1.xlsx" class="seisaku_btn btn01"><span>シナリオボードをダウンロードする</span></a>
+			<a href="<?php bloginfo('template_directory');?>/images/UGOKIE_HearingSheet_ver1.xlsx" class="seisaku_btn btn02"><span>ヒアリングシートをダウンロードする</span></a>
+		</div>
 		<hr>
 <?php echo do_shortcode('
 [su_tabs]

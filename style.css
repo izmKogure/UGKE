@@ -967,6 +967,28 @@ a.afterfollow_button:hover {
 a.afterfollow_button span {
 	visibility:hidden;
 }
+a.seisaku_btn {
+	display:inline-block;
+	height:58px;
+	background-position-y:0;
+	overflow:hidden;
+}
+a.seisaku_btn:hover {
+	background-position-y:-58px;
+}
+a.seisaku_btn span {
+	display:none;
+}
+a.btn01 {
+	width:392px;
+	background-image:url(images/price_button_01.png);
+	margin-right:20px;
+}
+a.btn02 {
+	width:420px;
+	background-image:url(images/price_button_02.png);
+}
+
 /* 料金・特徴 */
 
 /* お問合せ */
@@ -1485,7 +1507,7 @@ span.tab-menu3 {
 }
 .tab2 {
 	background-image:url(images/price_ill_tag02.png);
-	height:2045px;
+	height:2065px;
 }
 .tab3 {
 	background-image:url(images/price_ill_tag03.png);
@@ -1518,7 +1540,8 @@ span.tab-menu3 {
 span.tab-menu1.su-tabs-current,
 span.tab-menu2.su-tabs-current,
 span.tab-menu3.su-tabs-current {
-	background: no-repeat url("images/price_navi_flow_active.png") !important;
+	background-image: url("images/price_navi_flow_active.png") !important;
+	background-repeat: no-repeat !important;
 }
 /*.su-tabs-nav span:hover {
 	background-position-y: 0 !important;
@@ -1701,5 +1724,17 @@ dl.news-list dd div.labnew-wrapper div.new {
 dd.lab {
 	border-bottom:dotted 1px #FF0000 !important;
 	padding-top:30px !important;
+}
+a.more {
+	display:inline-block;
+	width:630px;
+	height:70px;
+	background:url(images/btn_kiji.png) 0 0 no-repeat;
+}
+a.more:hover {
+	background-position-y:-70px;
+}
+a.more span {
+	display:none;
 }
 /* UGOKIE Lab. */
