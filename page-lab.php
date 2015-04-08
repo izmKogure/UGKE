@@ -50,7 +50,6 @@ get_header(); ?>
 						<a href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>" target="_blank"><span class="sns_count facebook"><?php echo get_facebook_like_count( get_the_permalink() );?></span></a>
 						<a href="http://twitter.com/share?url=<?php the_permalink(); ?>&text=UGOKIE&" target="_blank"><span class="sns_count twitter"><?php echo get_twitter_tweet_count( get_the_permalink() );?></span></a>
 					</div>
-					<a href="<?php the_permalink(); ?>" class="more"><span>この記事を見る</span></a>
 				</dd>
 <?php endwhile; else: ?>
 			<dd>

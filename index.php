@@ -169,7 +169,7 @@ get_header(); ?>
 								?>
 								</li>
 <?php endwhile; else: ?>
-			<li>UGOKIE lab. 近日公開予定！</li>
+			<li>記事はありません</li>
 							<?php endif; wp_reset_query(); ?>
 
 						</ul>
