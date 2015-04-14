@@ -54,7 +54,7 @@ get_header(); ?>
 				</dd>
 <?php endwhile; else: ?>
 			<dd>
-			<p>記事はありません。</p>
+			<p>UGOKIE lab. 近日公開予定！</p>
 			</dd>
 			<style>
 				body.archive dl.news-list dt.lab li.all a {background:none; color:#333333;}

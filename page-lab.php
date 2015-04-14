@@ -54,7 +54,7 @@ get_header(); ?>
 				</dd>
 <?php endwhile; else: ?>
 			<dd>
-			<p>記事はありません。</p>
+			<p>UGOKIE lab. 近日公開予定！</p>
 			</dd>
 		<?php endif; wp_reset_query(); ?>
 			</dl>
