@@ -37,7 +37,7 @@
 							</ul>
 						</dt>
 						<dd>
-						<ul>
+						<ul class="fbanner">
 							<li><img src="<?php bloginfo('template_directory');?>/images/banner_fb.png" alt="ugokie公式フェイスブックページ"></li>
 							<li><img src="<?php bloginfo('template_directory');?>/images/banner_lab.png" alt="ugokie公式ブログ"></li>
 						</ul>
