@@ -38,8 +38,8 @@
 						</dt>
 						<dd>
 						<ul>
-							<li><img src="./images/banner_fb" alt="ugokie公式フェイスブックページ"></li>
-							<li><img src="./images/banner_lab" alt="ugokie公式ブログ"></li>
+							<li><img src="./images/banner_fb.png" alt="ugokie公式フェイスブックページ"></li>
+							<li><img src="./images/banner_lab.png" alt="ugokie公式ブログ"></li>
 						</ul>
 					
 					
