@@ -1329,16 +1329,6 @@ footer div#serviceinfo dd {
 	margin-top:-200px;
 }
 
-ul.fbanner{
-
-}
-
-ul.fbanner li{
-	float:left;
-	}
-
-
-
 footer div#serviceinfo dd:after {
 	content: "";
 	clear: both;

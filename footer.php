@@ -31,13 +31,13 @@
 						<dt>
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory');?>/images/logo_1c.png" width="286" height="60" alt="動画制作をトータルサポート　UGOKIE"></a><br>
 東京都渋谷区道玄坂2-15-1 ノア道玄坂6F<br>TEL / 03-6416-3240&nbsp;&nbsp;&nbsp;FAX / 03-6416-3242
-							<ul>
+							<ul class="fbanner">
 								<li><a class="youtube" href="https://www.youtube.com/channel/UCfVs6zmdQzz-xxdG8B5WTyw" target="_blank"><span>YouTube</span></a></li>
 								<li><a class="facebook" href="https://www.facebook.com/ugokie" target="_blank"><span>Facebook</span></a></li>
 							</ul>
 						</dt>
 						<dd>
-						<ul class="fbanner">
+						<ul>
 							<li><img src="<?php bloginfo('template_directory');?>/images/banner_fb.png" alt="ugokie公式フェイスブックページ"></li>
 							<li><img src="<?php bloginfo('template_directory');?>/images/banner_lab.png" alt="ugokie公式ブログ"></li>
 						</ul>
