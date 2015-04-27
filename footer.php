@@ -37,17 +37,12 @@
 							</ul>
 						</dt>
 						<dd>
-				<div id="likebox">
-					<div id="fb-root"></div>
-						<script>(function(d, s, id) {
-							var js, fjs = d.getElementsByTagName(s)[0];
-							if (d.getElementById(id)) return;
-							js = d.createElement(s); js.id = id;
-							js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=758942267458537&version=v2.0";
-							fjs.parentNode.insertBefore(js, fjs);
-							}(document, 'script', 'facebook-jssdk'));</script>
-							<div class="fb-like-box" data-href="https://www.facebook.com/ugokie" data-width="560" data-height="260" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
-			</div>
+						<ul>
+							<li><img src="./images/banner_fb" alt="ugokie公式フェイスブックページ"></li>
+							<li><img src="./images/banner_lab" alt="ugokie公式ブログ"></li>
+						</ul>
+					
+					
 						</dd>
 				</div>
 
