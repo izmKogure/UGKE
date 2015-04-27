@@ -1317,6 +1317,7 @@ footer div#serviceinfo dt {
 	height:200px;
 	font-size:13px;
 	line-height:2em;
+	float:left;
 }
 footer div#serviceinfo dt img {
 	margin-bottom:40px;
