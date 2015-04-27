@@ -1327,10 +1327,18 @@ footer div#serviceinfo dd {
 	margin-left:400px;
 	margin-top:-200px;
 }
-footer div#serviceinfo dd div#likebox {
-	background-color:#ffffff;
-	margin-bottom:40px;
+
+ul.fbanner{
+
 }
+
+ul.fbanner li{
+	display:float;
+	float:left;
+	}
+
+
+
 footer div#serviceinfo dd:after {
 	content: "";
 	clear: both;
