@@ -44,6 +44,7 @@
 					
 					
 						</dd>
+					</dl>
 				</div>
 
 			<div id="boshu">
