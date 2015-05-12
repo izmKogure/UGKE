@@ -37,16 +37,12 @@
 							</ul>
 						</dt>
 						<dd>
-						<ul>
-							<li><img src="<?php bloginfo('template_directory');?>/images/banner_fb.png" alt="ugokie公式フェイスブックページ"></li>
-							<li><img src="<?php bloginfo('template_directory');?>/images/banner_lab.png" alt="ugokie公式ブログ"></li>
-						</ul>
-					
-					
+							<a href="https://www.facebook.com/ugokie" target="_blank" class="mgrr20"><img src="<?php bloginfo('template_directory');?>/images/banner_fb.png" alt="ugokie公式フェイスブックページ"></a>
+							<a href="/lab"><img src="<?php bloginfo('template_directory');?>/images/banner_lab.png" alt="ugokie公式ブログ"></a>
 						</dd>
 					</dl>
 				</div>
-
+			</div>
 			<div id="boshu">
 				<a href="クリエイター募集"><span>クリエイター募集中　詳しくはこちら</span></a>
 			</div>
@@ -54,7 +50,7 @@
 				<div class="wrapper">
 					copyright 2014 UGOKIE presented by Senior rep,Inc<span><a href="会社概要">会社概要</a>　／　<a href="クリエイター募集">クリエイター募集</a>　／　<a href="個人情報保護方針">個人情報保護方針</a></span>
 				</div>
-			</div>
+			
 		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
